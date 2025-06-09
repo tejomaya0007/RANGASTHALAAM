@@ -1,0 +1,656 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+.container- {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-main {
+    display: flex;                    /* Aligns items horizontally */
+    list-style: none;                 /* Removes default list styling */
+    padding: 0;
+    margin: 0;
+    align-items: center;              /* Vertically centers items */
+    justify-content: space-between;   /* Space out items in the navbar */
+}
+
+
+/* Align Extras to the right */
+.nav-main .extras {
+    margin-left: 381%; /* Moves Extras to the far right */
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Dropdown menu styling */
+.nav-main .extras .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;            /* Position below the Extras item */
+    right: 0;             /* Align dropdown to the right edge of Extras */
+    background-color: rgba(255, 255, 255, 0.15);
+    min-width: 140px;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    z-index: 1000;
+}
+
+.nav-main .extras .dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.nav-main .extras .dropdown-content a:hover {
+    color: #ffcc00;
+    background-color: rgba(255, 255, 255, 0.0.25);
+}
+
+/* Show dropdown content on hover */
+.nav-main .extras:hover .dropdown-content {
+    display: block;
+}
+
+.extras {
+    margin-left: auto; /* Pushes Extras to the far right */
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+}
+
+.extras .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;  /* Position dropdown below Extras */
+    right: 0;   /* Align dropdown to the right edge */
+    background-color: rgba(255, 255, 255, 0.15);
+    min-width: 140px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+
+/* Header styling with full-width background */
+.header {
+    background-color: #030124;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.title-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.movie-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+.movie-title:hover {
+    color: #ffcc00; /* Change to yellow on hover */
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.date-nav {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.date-nav:hover {
+    background-color: #ffcc00;
+}
+
+/* Top-right aligned search and filter controls */
+.header-controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.filter-option {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 6px;
+    font-size: 14px;    /* Adjust font size if you want it larger or smaller */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: auto; /* Set specific width if desired (e.g., width: 100px;) */
+    height: auto; /* Set specific height if needed */
+}
+
+.filter-show-timings {
+    padding: 10px 18px;         /* Adjust padding if needed */
+    min-width: 150px;           /* Set a minimum width to keep text on one line */
+    white-space: nowrap; 
+    
+}
+/* Specific styles for Filter Price Range */
+.filter-price-range {
+    padding: 8px 14px;          /* Adjust padding if needed */
+    min-width: 130px;           /* Set a minimum width to keep text on one line */
+    white-space: nowrap;        /* Prevent text from wrapping */
+}
+.filter-option:hover {
+    background-color: #ffcc00;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.theater {
+    background-color: rgba(255, 255, 255, 0.025);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 170, 0, 0.9);
+}
+
+.theater h2 {
+    font-size: 20px;
+}
+
+.features {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.showtimes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.showtime {
+    padding: 8px 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.showtime:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    min-width: 220px;
+    max-width: 300px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255,);
+    border: none;
+    outline: none;
+}
+
+.dropdown-item:hover {
+    background-color: #ffcc00;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hover effect for theater names */
+.theater-name {
+    cursor: pointer; /* Add pointer cursor */
+    color: #fff; /* Ensure default color is white */
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.theater-name:hover {
+    color: #ffcc00; /* Change to yellow on hover */
+}
+
+/* Responsive Design */
+
+/* For screens below 925px */
+@media (max-width: 925px) {
+    .header {
+        padding: 15px;
+    }
+
+    .title-container {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header-controls {
+        position: static;
+        margin-top: 10px;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .search-bar {
+        width: 60%;
+        margin-bottom: 5px;
+    }
+
+    .filter-option {
+        padding: 6px 10px;
+    }
+}
+
+/* For tablet devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .movie-title {
+        font-size: 28px;
+    }
+
+    .header-controls {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-bar {
+        width: 30%;
+    }
+
+    .filter-option {
+        width: auto;
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+
+    .dropdown-menu {
+        min-width: 180px;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        padding: 8px;
+    }
+
+    .movie-title {
+        font-size: 24px;
+    }
+
+    .header-controls {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .search-bar {
+        width: 80%;
+    }
+
+    .filter-option {
+        width: 100%;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .showtimes {
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .showtime {
+        padding: 5px 8px;
+        font-size: 10px;
+        width: calc(100% / 3 - 10px);
+        margin: 2px 0;
+    }
+
+    .dropdown-menu {
+        min-width: 150px;
+    }
+}
+
+
+/* General styling updates */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.home-link {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.home-link:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #030212;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+header .search-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+header input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: white;
+  transition: border-color 0.3s ease;
+}
+
+header input[type="text"]:focus {
+  outline: none;
+  border-color: #ffcc00;
+}
+
+header .user-auth a.button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #030212;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+header .user-auth a.button:hover {
+  background-color: #ffaa00;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: 
+  #030212;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-main li,
+.nav-right li {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Set default color to white and change to yellow on hover */
+.nav-main li a,
+.sidebar li a,
+.dropdown-content a {
+  color: #ffffff; /* Default color white */
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Specific hover effect for main navigation */
+.nav-main li a:hover {
+  color: #ffcc00 !important; /* Change to yellow on hover */
+}
+
+.sidebar li a:hover,
+.dropdown-content a:hover {
+  color: #ffcc00; /* Change to yellow on hover */
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  min-width: 140px;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  outline: none; /* Remove outline */
+}
+
+.dropdown-content a:hover {
+  color: #ffcc00; /* Change to yellow on hover */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-right {
+  margin-right: 30px;
+}
+
+/* Sidebar for mobile */
+.sidebar {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(10px);
+  list-style: none;
+  z-index: 1000;
+}
+
+.sidebar li {
+  padding: 20px;
+}
+
+.sidebar li.dropdown {
+  position: relative;
+}
+
+#sidebarDropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  list-style-type: none;
+  padding: 0;
+  z-index: 1000;
+}
+
+.sidebar li.dropdown:hover #sidebarDropdown {
+  display: block;
+}
+
+#sidebarDropdown li {
+  padding: 10px;
+}
+
+#sidebarDropdown li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s; /* Smooth color transition */
+  outline: none; /* Remove outline */
+}
+
+#sidebarDropdown li a:hover {
+  color: #ffcc00; /* Change to yellow on hover */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-button {
+  display: none;
+  cursor: pointer;
+  color: #ffcc00;                 /* Default yellow color */
+  font-size: 30px;
+  background: none;               /* Remove any default background */
+  border: none; 
+}
+
+.menu-button:hover {
+    color: #ffffff;                 /* Change color to white on hover */
+}
+
+.menu-button svg {
+  fill: #ffcc00;
+}
+
+.menu-button:hover svg {
+  fill: #ffffff;
+}
+
+.sidebar .close-btn i {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sidebar .close-btn:hover i {
+  color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .sidebar {
+    display: flex;
+    width: 100%;
+  }
+
+  .sidebar .dropdown-toggle {
+    display: block;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .sidebar li.dropdown:hover #sidebarDropdown {
+    display: block;
+  }
+}

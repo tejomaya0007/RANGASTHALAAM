@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "603d2f993ded4a2bcf8e7e8b",
+        "title": "SWAG (2024)",
+        "genre": [
+            "Action",
+            "Comedy"
+        ],
+        "duration": 120,
+        "releaseDate": "2024-01-05T00:00:00Z",
+        "rating": "PG-13",
+        "description": "Movie description goes here."
+    },
+    {
+        "_id": "603d2f993ded4a2bcf8e7e8c",
+        "title": "Another Movie (2024)",
+        "genre": [
+            "Drama"
+        ],
+        "duration": 140,
+        "releaseDate": "2024-03-15T00:00:00Z",
+        "rating": "R",
+        "description": "Another movie description."
+    }
+]

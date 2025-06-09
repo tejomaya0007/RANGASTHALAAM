@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking Header</title>
+    <link rel="stylesheet" href="seatingHeadstyle.css">
+</head>
+<body>
+    <!-- Header Container -->
+    <div class="header-container">
+        <div class="header-left">
+            <h2>
+                <a href="movie-details.html" class="movie-title-link">KA (2024)</a>
+                <span class="highlight">U|A</span>
+            </h2>
+            <p><span class="highlight">Sandhya 70MM 4K Dolby Atmos: RTC X Roads | Tuesday, 05 Nov, 11:00 AM</span></p>
+        </div>
+    </div>
+
+    <!-- New Selection Container -->
+    <div class="selection-container">
+        <!-- Time Selection Buttons (Left) -->
+        <div class="time-selection">
+            <button class="time-button active">11:00 AM</button>
+            <button class="time-button">02:00 PM</button>
+            <button class="time-button">06:00 PM</button>
+            <button class="time-button">09:00 PM</button>
+        </div>
+
+        <!-- Ticket Dropdown Selection (Right) -->
+        <div class="ticket-dropdown-container">
+            <label for="ticket-dropdown" class="highlight">Tickets:</label>
+            <select id="ticket-dropdown" class="ticket-dropdown">
+                <option value="1">1 Ticket</option>
+                <option value="2">2 Tickets</option>
+                <option value="3">3 Tickets</option>
+                <option value="4">4 Tickets</option>
+                <option value="5">5 Tickets</option>
+                <option value="6">6 Tickets</option>
+                <option value="7">7 Tickets</option>
+                <option value="8">8 Tickets</option>
+                <option value="9">9 Tickets</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="seatingHead.js"></script>
+</body>
+</html>

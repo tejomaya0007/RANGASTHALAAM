@@ -1,0 +1,110 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Header container styling */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030124;
+    padding: 16px 24px;
+}
+
+/* Styling for header content */
+.header-left h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.header-left p {
+    font-size: 14px;
+    color: #555;
+}
+
+.rating-icon {
+    background-color: #1e90ff;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+/* Styling highlight color for specified text */
+.highlight {
+    color: #ffcc00;
+}
+
+.movie-title-link {
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+.movie-title-link:hover {
+    color: #fff;
+}
+
+/* Selection Container styling */
+.selection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #030124;
+}
+
+/* Time selection styling */
+.time-selection {
+    display: flex;
+    gap: 10px;
+}
+
+.time-button {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #e5e5e5;
+}
+
+.time-button.active {
+    background-color: #ffcc00;
+    color: white;
+}
+
+.time-button:hover {
+    background-color: #ffcc00;
+    color: white;
+}
+
+/* Ticket Dropdown styling */
+.ticket-dropdown-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ticket-dropdown-container label {
+    font-size: 14px;
+}
+
+.ticket-dropdown {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

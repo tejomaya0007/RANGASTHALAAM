@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWAG - Showtimes</title>
+    <!-- Include the homepage CSS -->
+    <link rel="stylesheet" href="../HomePagestyle.css">
+    <!-- Include the Showtimes CSS -->
+    <link rel="stylesheet" href="showStyle.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <a href="../../homepage.html" class="home-link">Home</a>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for Movies, Events, Hackathons">
+    </div>
+</header>
+
+<!-- Navigation Section -->
+<nav>
+    <ul class="nav-main">
+        <!-- Left-aligned navigation items -->
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Hackathons</a></li>
+
+        <!-- Right-aligned "Extras" with dropdown -->
+        <li class="dropdown extras">
+            Extras
+            <div class="dropdown-content">
+                <a href="#">Offers</a>
+                <a href="#">About</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+
+<!-- Sidebar for Mobile -->
+<div class="menu-button" onclick="toggleSidebar()">☰</div>
+<ul class="sidebar" id="mobileSidebar">
+    <li class="close-btn" onclick="hideSidebar()">✖</li>
+    <li><a href="#">Movies</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">Hackathons</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" onclick="toggleSidebarDropdown()">Extras</a>
+        <ul id="sidebarDropdown">
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </li>
+</ul>
+
+
+  <!-- Showtimes Page Content -->
+  <div class="container-fluid">
+      <header class="header">
+          <div class="title-container">
+              <h1 class="movie-title" onclick="openMoviePage('swag')">SWAG</h1>
+          </div>
+          <div class="date-selector">
+              <button class="date-nav" id="prev-date">&lt;</button>
+              <span id="selected-date">Thu, 24 Oct</span>
+              <button class="date-nav" id="next-date">&gt;</button>
+          </div>
+          <div class="header-controls">
+              <input type="text" class="search-bar" placeholder="Search">
+              <div class="dropdown">
+                  <button class="filter-option filter-show-timings dropdown-toggle">Filter Show Timings</button>
+                  <div class="dropdown-menu">
+                      <button class="dropdown-item" onclick="filterShowtimes('morning')">Morning (12:00 AM - 11:59 AM)</button>
+                      <button class="dropdown-item" onclick="filterShowtimes('afternoon')">Afternoon (12:00 PM - 3:59 PM)</button>
+                      <button class="dropdown-item" onclick="filterShowtimes('evening')">Evening (4:00 PM - 6:59 PM)</button>
+                      <button class="dropdown-item" onclick="filterShowtimes('night')">Night (7:00 PM - 11:59 PM)</button>
+                      <button class="dropdown-item" onclick="resetShowtimes()">Reset</button>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+      <div class="filter-bar">
+          <button class="filter-option filter-price-range">Filter Price Range</button>
+      </div>
+
+      <div id="theaters">
+          <!-- Theater: AAA Cinemas -->
+          <div class="theater">
+              <h2 class="theater-name" onclick="openTheaterPage('ameerpet')">Sandhya 70MM</h2>
+              <div class="features">
+                  <span class="m-ticket">M-Ticket</span> |
+                  <span class="food">Food & Beverage</span> |
+                  <span class="non-cancellable">Non-cancellable</span>
+              </div>
+              <div class="showtimes" id="ameerpet-times">
+                  <button class="showtime" onclick="redirectToShowtimePage('ameerpet', '04:00 AM')">04:00 AM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('ameerpet', '08:00 AM')">08:00 AM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('ameerpet', '11:30 AM')">11:30 AM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('ameerpet', '02:00 PM')">02:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('ameerpet', '06:00 PM')">06:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('ameerpet', '09:30 PM')">09:30 PM</button>
+              </div>
+          </div>
+
+          <!-- Theater: AMB Cinemas -->
+          <div class="theater">
+              <h2 class="theater-name" onclick="openTheaterPage('gachibowli')">AMB Cinemas: Gachibowli</h2>
+              <div class="features">
+                  <span class="m-ticket">M-Ticket</span> |
+                  <span class="food">Food & Beverage</span> |
+                  <span class="non-cancellable">Non-cancellable</span>
+              </div>
+              <div class="showtimes" id="gachibowli-times">
+                  <button class="showtime" onclick="redirectToShowtimePage('gachibowli', '06:05 AM')">06:05 AM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('gachibowli', '01:00 PM')">01:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('gachibowli', '03:30 PM')">03:30 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('gachibowli', '05:05 PM')">05:05 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('gachibowli', '07:00 PM')">07:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('gachibowli', '08:00 PM')">08:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('gachibowli', '10:00 PM')">10:00 PM</button>
+              </div>
+          </div>
+
+          <!-- Theater: Aparna Cinemas -->
+          <div class="theater">
+              <h2 class="theater-name" onclick="openTheaterPage('nallagandla')">Aparna Cinemas: Nallagandla</h2>
+              <div class="features">
+                  <span class="food">Food & Beverage</span> |
+                  <span class="non-cancellable">Non-cancellable</span>
+              </div>
+              <div class="showtimes" id="nallagandla-times">
+                  <button class="showtime" onclick="redirectToShowtimePage('nallagandla', '05:00 PM')">05:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('nallagandla', '06:00 PM')">06:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('nallagandla', '07:00 PM')">07:00 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('nallagandla', '08:30 PM')">08:30 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('nallagandla', '09:30 PM')">09:30 PM</button>
+                  <button class="showtime" onclick="redirectToShowtimePage('nallagandla', '10:50 PM')">10:50 PM</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Include homepage and showtimes JS -->
+  <script src="../../scripthome.js"></script> <!-- Homepage JS -->
+  <script src="showScript.js"></script> <!-- Showtimes JS -->
+</body>
+</html>

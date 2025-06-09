@@ -1,0 +1,412 @@
+/* General styling updates */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.home-link {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.home-link:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #030212;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+header .search-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+header input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: white;
+  transition: border-color 0.3s ease;
+}
+
+header input[type="text"]:focus {
+  outline: none;
+  border-color: #ffcc00;
+}
+
+header .user-auth a.button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #030212;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+header .user-auth a.button:hover {
+  background-color: #ffaa00;
+}
+
+/* Login Form */
+.login-form {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+}
+
+.login-form.active {
+  display: block;
+}
+
+/* User Sidebar */
+.user-sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  display: block !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: right 0.3s ease;
+}
+
+.user-sidebar.open {
+  right: 0 !important;
+}
+
+.close-sidebar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#userIcon {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #030212;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-main li,
+.nav-right li {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Navigation links styling */
+.nav-main li a,
+.sidebar li a,
+.dropdown-content a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.nav-main li a:hover {
+  color: #ffcc00 !important;
+}
+
+.sidebar li a:hover,
+.dropdown-content a:hover {
+  color: #ffcc00;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  min-width: 140px;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #ffcc00;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-right {
+  margin-right: 30px;
+}
+
+/* Sidebar for mobile */
+.sidebar {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(10px);
+  list-style: none;
+  z-index: 1000;
+}
+
+.sidebar li {
+  padding: 20px;
+}
+
+.sidebar li.dropdown {
+  position: relative;
+}
+
+#sidebarDropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  list-style-type: none;
+  padding: 0;
+  z-index: 1000;
+}
+
+.sidebar li.dropdown:hover #sidebarDropdown {
+  display: block;
+}
+
+#sidebarDropdown li {
+  padding: 10px;
+}
+
+#sidebarDropdown li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s;
+}
+
+#sidebarDropdown li a:hover {
+  color: #ffcc00;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-button {
+  display: none;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+
+.menu-button svg {
+  fill: #ffcc00;
+}
+
+.menu-button:hover svg {
+  fill: #ffffff;
+}
+
+.sidebar .close-btn i {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sidebar .close-btn:hover i {
+  color: #ffcc00;
+}
+
+
+
+.see-all-container {
+  text-align: right;
+  margin-top: 2x;
+}
+.see-all-button {
+  display: inline-block;
+   /* Customize the color */
+  color: white;
+  padding: 1px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.see-all-button:hover {
+  color:#ffcc00 /* Hover effect */
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .sidebar {
+    display: flex;
+    width: 100%;
+  }
+}
+
+/* Carousel Section */
+.carousel-section {
+  position: relative;
+  padding: 20px;
+  z-index: 2;
+}
+
+/* Show carousel buttons on desktop */
+.carousel-button {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffcc00;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10; /* Ensure they are above all images */
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: #ffaa00;
+}
+
+.container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.box {
+  flex: 1 0 20%;
+  max-width: 20%; 
+  margin: 0 10px;
+}
+
+ .box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+/* Responsive adjustments for carousel */
+@media (max-width: 768px) {
+  .container .box {
+    flex: 1 0 30%;
+    max-width: 30%;
+  }
+  .carousel-button {
+    display: none; /* Hide carousel buttons on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .container .box {
+    flex: 1 0 45%;
+    max-width: 45%;
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.overlay.active {
+  display: block;
+}

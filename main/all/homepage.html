@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>RANGASTHALAM</title>
+  <link rel="stylesheet" href="HomePagestyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Home</div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for Movies, Events, Hackathons">
+    </div>
+    <div class="user-auth" id="userAuth"> <!-- Added ID for easy access -->
+      <a href="signin.html" id="signInBtn" class="button">Sign In</a>
+    </div>
+</header>
+
+<!-- Sidebar for User Options -->
+<div class="user-sidebar" id="userSidebar">
+  <button id="closeSidebarBtn" class="close-sidebar">X</button>
+  <button class="logout-button" id="logoutButton">Log Out</button>
+</div>
+
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul class="nav-main">
+      <li><a href="movie_seeall.html">Movies</a></li>
+      <li><a href="events reference.html">Events</a></li>
+      <li><a href="events reference.html">Hackathons</a></li>
+    </ul>
+    <ul class="nav-right">
+      <li class="dropdown">
+        Extras
+        <div class="dropdown-content">
+          <a href="Event_registeration.html
+          
+          
+          
+          
+          0">RegisterYourEvent</a>
+          <a href="#">About</a>
+        </div>
+      </li>
+    </ul>
+    <div class="menu-button" onclick="toggleSidebar()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/>
+      </svg>
+    </div>
+  </nav>
+
+  <!-- Sidebar for mobile view -->
+  <ul class="sidebar" id="mobileSidebar">
+    <li onclick="hideSidebar()" class="close-btn">
+      <i class="fas fa-times"></i>
+    </li>
+    <li><a href="movie_seeall.html">Movies</a></li>
+    <li><a href="events reference.html">Events</a></li>
+    <li><a href="events reference.html">Hackathons</a></li>
+    <!-- Dropdown in sidebar -->
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropdown-toggle" onclick="toggleSidebarDropdown()">Extras</a>
+      <ul class="dropdown-content" id="sidebarDropdown">
+        <li><a href="Event_registeration.html">registerYourEvent</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Carousel Section -->
+  <!-- Movies Running Section -->
+<div class="carousel-section">
+  <button class="carousel-button prev">&#10094;</button> <!-- Left Arrow -->
+  <button class="carousel-button next">&#10095;</button> <!-- Right Arrow -->
+  <h2>Movies Running</h2>
+  <div class="see-all-container">
+    <a href="movie_seeall.html" class="see-all-button">See All</a>
+  </div>
+  <div class="container">
+    <a href="movies running/vettiyan/vettaiyanbooking.html" class="box">
+      <img src="movies running/vettiyan/vettaiyan.jpg" 
+           srcset="movies running/vettiyan/vettaiyan-small.jpg 480w,
+                   movies running/vettiyan/vettaiyan.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 1">
+    </a>
+    <a href="movies running/swag/SwagBookinPage.html" class="box">
+      <img src="movies running/swag/swag.jpg" 
+           srcset="movies running/swag/swag-small.jpg 480w,
+                   movies running/swag/swag.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 2">
+    </a>
+    <a href="movies running/joker 2/jaker2booking.html" class="box">
+      <img src="movies running/joker 2/joker.jpg" 
+           srcset="movies running/joker 2/joker-small.jpg 480w,
+                   movies running/joker 2/joker.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 3">
+    </a>
+    <a href="movies running/satyam sundaram/satyamsundarambooking.html" class="box">
+      <img src="movies running/satyam sundaram/satyam sundaram.jpg" 
+           srcset="movies running/satyam sundaram/satyam-sundaram-small.jpg 480w,
+                   movies running/satyam sundaram/satyam sundaram.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 4">
+    </a>
+    <a href="movies running/matin/martinbooking.html" class="box">
+      <img src="movies running/matin/matin-poster.jpg" 
+           srcset="movies running/matin/matin-poster-small.jpg 480w,
+                   movies running/matin/matin-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 5">
+    </a>
+    <a href="movies running/vishvam/vishwanbooking.html" class="box">
+      <img src="movies running/vishvam/vishwam.jpg" 
+           srcset="movies running/vishvam/vishwam-small.jpg 480w,
+                   movies running/vishvam/vishwam.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 6">
+    </a>
+    <a href="movies running/jigar/jigarbooking.html" class="box">
+      <img src="movies running/jigar/jigar-poster.jpg" 
+           srcset="movies running/jigar/jigar-poster-small.jpg 480w,
+                   movies running/jigar/jigar-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 7">
+    </a>
+    <a href="movies running/jakkana/jakkananbooking.html" class="box">
+      <img src="movies running/jakkana/jakkana-poster.jpg" 
+           srcset="movies running/jakkana/jakkana-poster-small.jpg 480w,
+                   movies running/jakkana/jakkana-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 8">
+    </a>
+    <a href="movies running/maa nanna/maa-nannabooking.html" class="box">
+      <img src="movies running/maa nanna/maa naana superhero-poster.jpg" 
+           srcset="movies running/maa nanna/maa naana superhero-poster-small.jpg 480w,
+                   movies running/maa nanna/maa naana superhero-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 9">
+    </a>
+    <a href="movies running/dm4/dm4booking.html" class="box">
+      <img src="movies running/dm4/dm4-poster.jpg" 
+           srcset="movies running/dm4/dm4-poster-small.jpg 480w,
+                   movies running/dm4/dm4-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 10">
+    </a>
+  </div>
+  
+</div>
+</div>
+
+<!-- Top OTT Content Section -->
+<div class="carousel-section">
+  <button class="carousel-button prev">&#10094;</button> <!-- Left Arrow -->
+  <button class="carousel-button next">&#10095;</button> <!-- Right Arrow -->
+  <h2>TOP OTT CONTENT THIS WEEK</h2>
+  <div class="see-all-container">
+    <a href="movie_seeall.html" class="see-all-button">See All</a>
+  </div>
+  <div class="container">
+    <a href="ott/citidel/citadel.html" class="box">
+      <img src="ott/citidel/CitadelDianahd_poster.jpg" 
+           srcset="ott/citidel/CitadelDianahd_poster.jpg 480w,
+                   ott/citidel/CitadelDianahd_poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Citadel Diana Poster">
+  </a>
+    </a>
+    <a href="ott/Girl Haunts Boy/girlhauntsboy.html" class="box">
+      <img src="ott/Girl Haunts Boy/Girl Haunts Boyhd-poster.png" 
+           srcset="ott/Girl Haunts Boy/Girl Haunts Boyhd-poster.png 480w,
+                   ott/Girl Haunts Boy/Girl Haunts Boyhd-poster.png 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 2">
+    </a>
+    <a href="ott/Outer Banks Season 4 Part 1/outerbanks.html" class="box">
+      <img src="ott/Outer Banks Season 4 Part 1/Outer Banks Season 4 Part 1hd-poster.jpg" 
+           srcset="ott/Outer Banks Season 4 Part 1/Outer Banks Season 4 Part 1hd-poster.jpg 480w,
+                   ott/Outer Banks Season 4 Part 1/Outer Banks Season 4 Part 1hd-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 3">
+    </a>
+    <a href="ott/Raat Jawaan Hai/raatjawaanhai.html" class="box">
+      <img src="ott/Raat Jawaan Hai/Raat Jawaan Haihd-poster.jpg" 
+           srcset="ott/Raat Jawaan Hai/Raat Jawaan Haihd-poster.jpg 480w,
+                   ott/Raat Jawaan Hai/Raat Jawaan Haihd-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 4">
+    </a>
+    <a href="ott/Sarfirahd/safiara.html" class="box">
+      <img src="ott/Sarfirahd/Sarfirahd-poster.jpg" 
+           srcset="ott/Sarfirahd/Sarfirahd-poster.jpg 480w,
+                   ott/Sarfirahd/Sarfirahd-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 5">
+    </a>
+    <a href="ott/stree2/stree2.html" class="box">
+      <img src="ott/stree2/Stree 2SarkateKaAatankhd-poster.jpg" 
+           srcset="ott/stree2/Stree 2SarkateKaAatankhd-poster.jpg 480w,
+                   ott/stree2/Stree 2SarkateKaAatankhd-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 6">
+    </a>
+    <a href="ott/Teacup/teacup.html" class="box">
+      <img src="ott/Teacup/Teacuphd-poster.jpg" 
+           srcset="ott/Teacup/Teacuphd-poster.jpg 480w,
+                   ott/Teacup/Teacuphd-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 7">
+    </a>
+    <a href="ott/Tomb_Raider_-_Legend/tombrider.html" class="box">
+      <img src="ott/Tomb_Raider_-_Legend/Tomb_Raider_-_Legendhd-poster.png" 
+           srcset="ott/Tomb_Raider_-_Legend/Tomb_Raider_-_Legendhd-poster.png 480w,
+                   ott/Tomb_Raider_-_Legend/Tomb_Raider_-_Legendhd-poster.png 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 8">
+    </a>
+    <a href="ott/Uprising/uprising.html" class="box">
+      <img src="ott/Uprising/Uprising-poster.jpg" 
+           srcset="ott/Uprising/Uprising-poster.jpg 480w,
+                   ott/Uprising/Uprising-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 9">
+    </a>
+    <a href="ott/Vaazhai/vaazhai.html" class="box">
+      <img src="ott/Vaazhai/Vaazhai hd-poster.jpg" 
+           srcset="ott/Vaazhai/Vaazhai hd-poster.jpg 480w,
+                   ott/Vaazhai/Vaazhai hd-poster.jpg 768w" 
+           sizes="(max-width: 480px) 90vw, (max-width: 768px) 45vw, 11vw" 
+           alt="Movie 10">
+    </a>
+  </div>
+</div>
+
+<div class="carousel-section">
+  <button class="carousel-button prev">&#10094;</button> <!-- Left Arrow -->
+  <button class="carousel-button next">&#10095;</button> <!-- Right Arrow -->
+  <h2>Events&hackthones</h2>
+  <div class="see-all-container">
+    <a href="events reference.html" class="see-all-button">See All</a>
+  </div>
+  <div class="container">
+    <a href="events/aura/aura.html" class="box">
+      <img src="events/aura.jpeg" alt="Aura Event Poster">
+    </a>
+    <a href="movies running/vettiyan/vettaiyanbooking.html" class="box">
+      <img src="events/coldplay.jpg" alt="Aura Event Poster">
+    </a>
+    <a href="movies running/vettiyan/vettaiyanbooking.html" class="box">
+      <img src="events/Dsp_poster.jpeg" alt="Aura Event Poster">
+    </a>
+    <a href="movies running/vettiyan/vettaiyanbooking.html" class="box">
+      <img src="events/maroon_5.jpeg" alt="Aura Event Poster">
+    </a>
+    <a href="movies running/vettiyan/vettaiyanbooking.html" class="box">
+      <img src="events/hackathon5.jpg" alt="Aura Event Poster">
+    </a>
+     <a href="movies running/vettiyan/vettaiyanbooking.html" class="box">
+      <img src="events/hackaython4.jpg" alt="Aura Event Poster">
+    </a>
+    </a>
+    <a href="events/hackthon/hacktober.html" class="box">
+      <img src="events/hacktober.jpeg" alt="Aura Event Poster">
+    </a>
+  </div>
+  
+</div>
+</div>
+
+
+<script src="scripthome.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and Hackathons in Hyderabad</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #ffc107;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .filters {
+            width: 20%;
+            padding: 10px;
+        }
+
+        .filters h2 {
+            font-size: 24px;
+            color: #ffc107;
+        }
+
+        .filter-option {
+            background-color: #333;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .filter-option h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .filter-option button {
+            background-color: #000;
+            color: #ffc107;
+            border: 1px solid #ffc107;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 3px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .filter-option button:hover {
+            background-color: #ffc107;
+            color: #000;
+            border: 1px solid #ffc107;
+        }
+
+        .browse-btn {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            background-color: transparent;
+            color: #ffc107;
+            border: 1px solid #ffc107;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .browse-btn:hover {
+            background-color: #ffc107;
+            color: #000;
+        }
+
+        .content-section {
+            width: 75%;
+            padding: 10px;
+        }
+
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            width: calc(50% - 10px);
+            color: #fff;
+            text-align: center;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .lang {
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="filters">
+            <h2>Filters</h2>
+            <div class="filter-option">
+                <h3>Filter by</h3>
+                <button onclick="filterContent('sports')">Sports</button>
+                <button onclick="filterContent('concerts')">Concerts</button>
+                <button onclick="filterContent('hackathons')">Hackathons</button>
+                <button onclick="filterContent('summits')">Summits</button>
+            </div>
+            <button class="browse-btn" onclick="showEvents()">Events</button>
+            <button class="browse-btn" onclick="showHackathons()">Hackathons</button>
+            <button class="browse-btn" onclick="showAllContent()">Show All</button>
+        </div>
+
+        <div class="content-section">
+            <h2 id="content-heading">All Content</h2>
+            <div class="list">
+                <!-- Event Cards -->
+                <div class="card event-card" data-type="sports">
+                    <a href="path/to/aura.html" target="_blank">
+                        <img src="dump/EVENTS_HACKATHONS/aura.jpeg" alt="Aura">
+                    </a>
+                    <h3>Aura</h3>
+                    <div class="info">
+                        <span class="lang">Sports</span><br>
+                    </div>
+                </div>
+                <div class="card event-card" data-type="concerts">
+                    <a href="path/to/coldplay.html" target="_blank">
+                        <img src="dump/EVENTS_HACKATHONS/coldplay.jpg" alt="Coldplay">
+                    </a>
+                    <h3>Coldplay Concert</h3>
+                    <div class="info">
+                        <span class="lang">Concert</span><br>
+                    </div>
+                </div>
+                <div class="card event-card" data-type="concerts">
+                    <a href="path/to/dsp.html" target="_blank">
+                        <img src="dump/EVENTS_HACKATHONS/Dsp_poster.jpeg" alt="DSP Live">
+                    </a>
+                    <h3>DSP Live</h3>
+                    <div class="info">
+                        <span class="lang">Concert</span><br>
+                    </div>
+                </div>
+
+                <!-- Hackathon Cards -->
+                <div class="card hackathon-card" data-type="hackathons">
+                    <a href="path/to/hack2.html" target="_blank">
+                        <img src="dump/EVENTS_HACKATHONS/H.a.c.k.jpg" alt="HACK 2.0">
+                    </a>
+                    <h3>HACK 2.0</h3>
+                    <div class="info">
+                        <span class="lang">Hackathon</span><br>
+                    </div>
+                </div>
+                <div class="card hackathon-card" data-type="hackathons">
+                    <a href="path/to/hackathon2.html" target="_blank">
+                        <img src="dump/EVENTS_HACKATHONS/hackathon2.png" alt="Hackathon 8.0">
+                    </a>
+                    <h3>Hackathon 8.0</h3>
+                    <div class="info">
+                        <span class="lang">Hackathon</span><br>
+                    </div>
+                </div>
+                <div class="card hackathon-card" data-type="hackathons">
+                    <a href="path/to/hacktober.html" target="_blank">
+                        <img src="dump/EVENTS_HACKATHONS/hacktober.jpeg" alt="Hacktober Fest">
+                    </a>
+                    <h3>Hacktober Fest</h3>
+                    <div class="info">
+                        <span class="lang">Hackathon</span><br>
+                    </div>
+                </div>
+                <div class="card hackathon-card" data-type="summits">
+                    <a href="path/to/hacktober.html" target="_blank">
+                        <img src="dump/EVENTS_HACKATHONS/telangana_ai_summit.jpeg" alt="Hacktober Fest">
+                    </a>
+                    <h3>telangana ai summit</h3>
+                    <div class="info">
+                        <span class="lang">Summit</span><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+let currentFilter = "all";
+
+function showMovies() {
+    currentFilter = "movies";
+    document.getElementById('content-heading').textContent = 'Movies In Hyderabad';
+    document.querySelectorAll('.movie-card').forEach(card => card.style.display = 'block');
+    document.querySelectorAll('.ott-card').forEach(card => card.style.display = 'none');
+}
+function showEvents() {
+    currentFilter = "events";
+    document.getElementById('content-heading').textContent = 'Events in Hyderabad';
+    document.querySelectorAll('.event-card').forEach(card => card.style.display = 'block');
+    document.querySelectorAll('.hackathon-card').forEach(card => card.style.display = 'none');
+}
+
+function showHackathons() {
+    currentFilter = "hackathons";
+    document.getElementById('content-heading').textContent = 'Latest Hackathons';
+    document.querySelectorAll('.event-card').forEach(card => card.style.display = 'none');
+    document.querySelectorAll('.hackathon-card').forEach(card => card.style.display = 'block');
+}
+
+function showAllContent() {
+    currentFilter = "all";
+    document.getElementById('content-heading').textContent = 'All Content';
+    document.querySelectorAll('.card').forEach(card => card.style.display = 'block');
+}
+
+function filterContent(type) {
+    document.querySelectorAll('.card').forEach(card => {
+        const isMatch = card.getAttribute('data-type') === type;
+        const shouldDisplay = (currentFilter === "all" || 
+                               (currentFilter === "events" && card.classList.contains('event-card')) || 
+                               (currentFilter === "hackathons" && card.classList.contains('hackathon-card')));
+        card.style.display = isMatch && shouldDisplay ? 'block' : 'none';
+    });
+}
+
+</script>
+
+</body>
+</html>

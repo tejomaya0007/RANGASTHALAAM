@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="homepage.html" class="home-link">Home</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for Movies, Events, Hackathons">
+        </div>
+        <div class="user-auth">
+            <a href="sign in page/signin.html" class="button">Sign In</a>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul class="nav-main">
+            <div class="nav-left">
+                <li><a href="movie_seeall.html">Movies</a></li>
+                <li><a href="movie_seeall.html">Events</a></li>
+                <li><a href="#">Hackathons</a></li>
+            </div>
+            <div class="nav-right">
+                <li class="dropdown extras">
+                    Extras
+                    <div class="dropdown-content">
+                        <a href="#">registerYourEvent</a>
+                        <a href="#">About</a>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    
+
+    <!-- Sidebar for Mobile -->
+    <div class="menu-button" onclick="toggleSidebar()">☰</div>
+    <ul class="sidebar" id="mobileSidebar">
+        <li class="close-btn" onclick="hideSidebar()">✖</li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Hackathons</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" onclick="toggleSidebarDropdown()">Extras</a>
+            <ul id="sidebarDropdown">
+                <li><a href="#">registerYourEvent</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </li>
+    </ul>
+    
+    <div class="container">
+        <div class="filter-section">
+            <button class="filter-btn">Hackathons</button>
+            <button class="filter-btn">Sort By</button>
+            <button class="filter-btn">Filters</button>
+            <button class="filter-btn">Status</button>
+            <button class="filter-btn">User type</button>
+            <button class="filter-btn">Domain</button>
+            <button class="filter-btn">Category</button>
+        </div>
+
+        <div class="event-list">
+            <!-- Event 1 -->
+            <div class="event-card">
+                <div class="event-left">
+                    <img src="https://via.placeholder.com/60" alt="AI Chronicles">
+                    <div class="event-info">
+                        <h3>Hacktober Fest</h3>
+                        <p>International Institute of Information Technology (IIIT), Naya Raipur</p>
+                        <div class="event-meta">
+                            <span>₹ 8,000</span> • <span>2,604 Impressions</span>
+                        </div>
+                        <p class="event-time">6h december 2024</p>
+                        <p class="event-tags">All, Data Science +2</p>
+                    </div>
+                </div>
+                <div class="event-right">
+                    <button class="register-btn">Register</button>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="event-card">
+                <div class="event-left">
+                    <img src="https://via.placeholder.com/60" alt="Hack Celestia">
+                    <div class="event-info">
+                        <h3>Smart India Hackathon</h3>
+                        <p>Banasthali Vidyapith</p>
+                        <div class="event-meta">
+                            <span>46 Registered</span> • <span>8th november 2024</span>
+                        </div>
+                        <p class="event-tags">Hackathon, Engineering Students +3</p>
+                    </div>
+                </div>
+                <div class="event-right">
+                    <button class="register-btn">Register</button>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-card">
+                <div class="event-left">
+                    <img src="https://via.placeholder.com/60" alt="Innovate X">
+                    <div class="event-info">
+                        <h3>Hackavest</h3>
+                        <p>Shyam Lal College, University of Delhi</p>
+                        <div class="event-meta">
+                            <span>107 Registered</span> • <span>17 november 2024</span>
+                        </div>
+                        <p class="event-tags">Coding Challenge, Hackathon +4</p>
+                    </div>
+                </div>
+                <div class="event-right">
+                    <button class="register-btn">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

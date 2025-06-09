@@ -1,0 +1,472 @@
+[
+  {
+    "_id": "ObjectId(\"64d2a1b7f6c27ceb\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 1,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b74cd8b828\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 2,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b79705f45a\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 3,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7b23d02d3\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 4,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7426144ce\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 5,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b71d405dda\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 6,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b72c06dee6\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 7,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b75c336eda\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 8,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b73d5db49a\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 9,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7a5496b88\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 10,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b765300ffa\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 11,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b730f64de1\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 12,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7c4bd4922\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 13,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7d2fa0a4d\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 14,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7394dc25e\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 15,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7ac268a8f\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 16,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b75a18bd9e\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 17,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b76304952a\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 18,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7420488f6\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 19,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7635f6a84\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 20,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b790e3f563\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 21,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b72db97fbc\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 22,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b75761bbd4\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 23,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b77211bc11\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 24,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b72f2c1014\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 25,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b72ab364ef\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 26,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b707007605\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 27,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b73ab1a02e\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 28,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7fc77a783\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 29,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b743a0e70a\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 30,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b77069b39f\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 31,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b796304f4b\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 32,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b721421f8e\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 33,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b75d5cc7d4\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 34,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7103672d8\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 35,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b70a3caa8e\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 36,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7ed8af9ef\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 37,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7c48dca46\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 38,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b744b55edb\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 39,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7aca6c859\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 40,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7a920f682\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 41,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b740e7e68a\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 42,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7d42ba87b\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 43,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b71c360f11\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 44,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7695d5d42\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 45,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7849b29e3\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 46,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  },
+  {
+    "_id": "ObjectId(\"64d2a1b7b588a0b0\")",
+    "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+    "section": "upperBalcony",
+    "row": "A",
+    "seatNumber": 47,
+    "status": "available",
+    "price": 150,
+    "bookedBy": null
+  }
+]

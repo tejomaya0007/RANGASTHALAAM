@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seat Layout</title>
+  <link rel="stylesheet" href="seatingStyle.css">
+</head>
+<body>
+
+    <!-- Header Container -->
+  <div class="header-container">
+    <div class="header-left">
+      <h2>
+        <a href="SwagBookinPage.html" class="movie-title-link">SWAG (2024)</a>
+
+      </h2>
+      <p><span class="highlight">Sandhya 70MM 4K Dolby Atmos: RTC X Roads | Thu, 24 Oct, 04:00 AM</span></p>
+    </div>
+  </div>
+
+  <!-- New Selection Container -->
+  <div class="selection-container">
+    <!-- Time Selection Buttons (Left) -->
+    <div class="time-selection">
+      <button class="time-button active" onclick="location.href='4am.html'">04:00 AM</button>
+      <button class="time-button" onclick="location.href='8am.html'">08:00 AM</button>
+      <button class="time-button" onclick="location.href='11am.html'">11:30 AM</button>
+      <button class="time-button"onclick="location.href='2:30PMSeating.html'">02:00 PM</button>
+      <button class="time-button"onclick="location.href='6PMSeating.html'">06:00 PM</button>
+      <button class="time-button"onclick="location.href='9PMSeating.html'">09:00 PM</button>
+    </div>
+
+    <!-- Ticket Dropdown Selection (Right) -->
+    <div class="ticket-dropdown-container">
+      <label for="ticket-dropdown" class="highlight">Tickets:</label>
+      <select id="ticket-dropdown" class="ticket-dropdown">
+        <option value="tickets">select Ticket</option>
+        <option value="1">1 Ticket</option>
+        <option value="2">2 Tickets</option>
+        <option value="3">3 Tickets</option>
+        <option value="4">4 Tickets</option>
+        <option value="5">5 Tickets</option>
+        <option value="6">6 Tickets</option>
+        <option value="7">7 Tickets</option>
+        <option value="8">8 Tickets</option>
+        <option value="9">9 Tickets</option>
+      </select>
+    </div>
+  </div>
+    
+
+    <div class="box-container">
+        <div class="box-a-section">
+            <h3>Rs. 150 BOX A</h3>
+            <div class="row row-c">
+                <div class="row-label">C</div>
+                <!-- Seats in Row C for Box A -->
+                <div class="seat" data-section="upper-balcony-section">01</div>
+                <div class="seat" data-section="upper-balcony-section">02</div>
+                <div class="seat" data-section="upper-balcony-section">03</div>
+                <div class="seat" data-section="upper-balcony-section">04</div>
+                <div class="seat" data-section="upper-balcony-section">05</div>
+                <div class="seat" data-section="upper-balcony-section">06</div>
+                <div class="seat" data-section="upper-balcony-section">07</div>
+                <div class="seat" data-section="upper-balcony-section">08</div>
+                <div class="seat" data-section="upper-balcony-section">09</div>
+                <div class="seat" data-section="upper-balcony-section">10</div>
+            </div>
+            <div class="row row-b">
+                <div class="row-label">B</div>
+                <!-- Seats in Row B for Box A -->
+                <div class="seat" data-section="upper-balcony-section">01</div>
+                <div class="seat" data-section="upper-balcony-section">02</div>
+                <div class="seat" data-section="upper-balcony-section">03</div>
+                <div class="seat" data-section="upper-balcony-section">04</div>
+                <div class="seat" data-section="upper-balcony-section">05</div>
+                <div class="seat" data-section="upper-balcony-section">06</div>
+                <div class="seat" data-section="upper-balcony-section">07</div>
+                <div class="seat" data-section="upper-balcony-section">08</div>
+                <div class="seat" data-section="upper-balcony-section">09</div>
+            </div>
+            <div class="row row-a">
+                <div class="row-label">A</div>
+                <!-- Seats in Row A for Box A -->
+                <div class="seat" data-section="upper-balcony-section">01</div>
+                <div class="seat" data-section="upper-balcony-section">02</div>
+                <div class="seat" data-section="upper-balcony-section">03</div>
+                <div class="seat" data-section="upper-balcony-section">04</div>
+                <div class="seat" data-section="upper-balcony-section">05</div>
+                <div class="seat" data-section="upper-balcony-section">06</div>
+                <div class="seat" data-section="upper-balcony-section">07</div>
+                <div class="seat" data-section="upper-balcony-section">08</div>
+                <div class="seat" data-section="upper-balcony-section">09</div>
+                <div class="seat" data-section="upper-balcony-section">10</div>
+            </div>
+        </div>
+        
+        <div class="box-b-section">
+            <h3>Rs. 150 BOX B</h3>
+            <div class="row row-c">
+                <div class="row-label">C</div>
+                <!-- Seats in Row C for Box B -->
+                <div class="seat" data-section="upper-balcony-section">01</div>
+                <div class="seat" data-section="upper-balcony-section">02</div>
+                <div class="seat" data-section="upper-balcony-section">03</div>
+                <div class="seat" data-section="upper-balcony-section">04</div>
+                <div class="seat" data-section="upper-balcony-section">05</div>
+                <div class="seat" data-section="upper-balcony-section">06</div>
+                <div class="seat" data-section="upper-balcony-section">07</div>
+                <div class="seat" data-section="upper-balcony-section">08</div>
+            </div>
+            <div class="row row-b">
+                <div class="row-label">B</div>
+                <!-- Seats in Row B for Box B -->
+                <div class="seat" data-section="upper-balcony-section">01</div>
+                <div class="seat" data-section="upper-balcony-section">02</div>
+                <div class="seat" data-section="upper-balcony-section">03</div>
+                <div class="seat" data-section="upper-balcony-section">04</div>
+                <div class="seat" data-section="upper-balcony-section">05</div>
+                <div class="seat" data-section="upper-balcony-section">06</div>
+                <div class="seat" data-section="upper-balcony-section">07</div>
+                <div class="seat" data-section="upper-balcony-section">08</div>
+                <div class="seat" data-section="upper-balcony-section">09</div>
+            </div>
+            <div class="row row-a">
+                <div class="row-label">A</div>
+                <!-- Seats in Row A for Box B -->
+                <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+            </div>
+        </div>
+    </div>
+    <!-- Rs. 150 Upper Balcony -->
+    <h3>Rs. 150 UPPER BALCONY</h3>
+    <div class="upper-balcony-section">
+      <div class="row">
+    <div class="row-label">A</div>
+    <!-- Generate seats from 1 to 47 -->
+    <div class="seat" data-section="upper-balcony-section">01</div>
+    <div class="seat" data-section="upper-balcony-section">02</div>
+    <div class="seat" data-section="upper-balcony-section">03</div>
+    <div class="seat" data-section="upper-balcony-section">04</div>
+    <div class="seat" data-section="upper-balcony-section">05</div>
+    <div class="seat" data-section="upper-balcony-section">06</div>
+    <div class="seat" data-section="upper-balcony-section">07</div>
+    <div class="seat" data-section="upper-balcony-section">08</div>
+    <div class="seat" data-section="upper-balcony-section">09</div>
+    <div class="seat" data-section="upper-balcony-section">10</div>
+    <div class="seat" data-section="upper-balcony-section">11</div>
+    <div class="seat" data-section="upper-balcony-section">12</div>
+    <div class="seat" data-section="upper-balcony-section">13</div>
+    <div class="seat" data-section="upper-balcony-section">14</div>
+    <div class="seat" data-section="upper-balcony-section">15</div>
+    <div class="seat" data-section="upper-balcony-section">16</div>
+    <div class="seat" data-section="upper-balcony-section">17</div>
+    <div class="seat" data-section="upper-balcony-section">18</div>
+    <div class="seat" data-section="upper-balcony-section">19</div>
+    <div class="seat" data-section="upper-balcony-section">20</div>
+    <div class="seat" data-section="upper-balcony-section">21</div>
+    <div class="seat" data-section="upper-balcony-section">22</div>
+    <div class="seat" data-section="upper-balcony-section">23</div>
+    <div class="seat" data-section="upper-balcony-section">24</div>
+    <div class="seat" data-section="upper-balcony-section">25</div>
+    <div class="seat" data-section="upper-balcony-section">26</div>
+    <div class="seat" data-section="upper-balcony-section">27</div>
+    <div class="seat" data-section="upper-balcony-section">28</div>
+    <div class="seat" data-section="upper-balcony-section">29</div>
+    <div class="seat" data-section="upper-balcony-section">30</div>
+    <div class="seat" data-section="upper-balcony-section">31</div>
+    <div class="seat" data-section="upper-balcony-section">32</div>
+    <div class="seat" data-section="upper-balcony-section">33</div>
+    <div class="seat" data-section="upper-balcony-section">34</div>
+    <div class="seat" data-section="upper-balcony-section">35</div>
+    <div class="seat" data-section="upper-balcony-section">36</div>
+    <div class="seat" data-section="upper-balcony-section">37</div>
+    <div class="seat" data-section="upper-balcony-section">38</div>
+    <div class="seat" data-section="upper-balcony-section">39</div>
+    <div class="seat" data-section="upper-balcony-section">40</div>
+    <div class="seat" data-section="upper-balcony-section">41</div>
+    <div class="seat" data-section="upper-balcony-section">42</div>
+    <div class="seat" data-section="upper-balcony-section">43</div>
+    <div class="seat" data-section="upper-balcony-section">44</div>
+    <div class="seat" data-section="upper-balcony-section">45</div>
+    <div class="seat" data-section="upper-balcony-section">46</div>
+    <div class="seat" data-section="upper-balcony-section">47</div>
+    </div>
+
+
+
+      <!-- Rows B to I with split sections, Row B example -->
+      <div class="row">
+        <div class="row-label">B</div>
+        <!-- Generate seats from 1 to 47 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+        <div class="seat" data-section="upper-balcony-section">42</div>
+        <div class="seat" data-section="upper-balcony-section">43</div>
+    </div>
+    <div class="row">
+        <div class="row-label">C</div>
+        <!-- Generate seats from 1 to 47 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+        <div class="seat" data-section="upper-balcony-section">42</div>
+        <div class="seat" data-section="upper-balcony-section">43</div>
+    </div>
+    <div class="row">
+        <div class="row-label">D</div>
+        <!-- Generate seats from 1 to 47 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+        <div class="seat" data-section="upper-balcony-section">42</div>
+        <div class="seat" data-section="upper-balcony-section">43</div>
+    </div>
+    <div class="row">
+        <div class="row-label">E</div>
+        <!-- Generate seats from 1 to 47 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+        <div class="seat" data-section="upper-balcony-section">42</div>
+        <div class="seat" data-section="upper-balcony-section">43</div>
+    </div>
+    <div class="row">
+        <div class="row-label">F</div>
+        <!-- Generate seats from 1 to 47 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+        <div class="seat" data-section="upper-balcony-section">42</div>
+        <div class="seat" data-section="upper-balcony-section">43</div>
+    </div>
+
+    <div class="row">
+        <div class="row-label">G</div>
+        <!-- Seats from 1 to 41 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+    </div>
+    <div class="row">
+        <div class="row-label">H</div>
+        <!-- Generate seats from 1 to 47 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+        <div class="seat" data-section="upper-balcony-section">42</div>
+        <div class="seat" data-section="upper-balcony-section">43</div>
+    </div>
+
+    <div class="row">
+        <div class="row-label">I</div>
+        <!-- Seats from 1 to 41 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="row row-j">
+        <div class="row-label">J</div>
+        <!-- Seats from 1 to 41 -->
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+    </div>
+      
+
+    <div class="row row-k">
+        <div class="seat" data-section="upper-balcony-section">01</div>
+        <div class="seat" data-section="upper-balcony-section">02</div>
+        <div class="seat" data-section="upper-balcony-section">03</div>
+        <div class="seat" data-section="upper-balcony-section">04</div>
+        <div class="seat" data-section="upper-balcony-section">05</div>
+        <div class="seat" data-section="upper-balcony-section">06</div>
+        <div class="seat" data-section="upper-balcony-section">07</div>
+        <div class="seat" data-section="upper-balcony-section">08</div>
+        <div class="seat" data-section="upper-balcony-section">09</div>
+        <div class="seat" data-section="upper-balcony-section">10</div>
+        <div class="seat" data-section="upper-balcony-section">11</div>
+        <div class="seat" data-section="upper-balcony-section">12</div>
+        <div class="seat" data-section="upper-balcony-section">13</div>
+        <div class="seat" data-section="upper-balcony-section">14</div>
+        <div class="seat" data-section="upper-balcony-section">15</div>
+        <div class="seat" data-section="upper-balcony-section">16</div>
+        <div class="seat" data-section="upper-balcony-section">17</div>
+        <div class="seat" data-section="upper-balcony-section">18</div>
+        <div class="seat" data-section="upper-balcony-section">19</div>
+        <div class="seat" data-section="upper-balcony-section">20</div>
+        <div class="seat" data-section="upper-balcony-section">21</div>
+        <div class="seat" data-section="upper-balcony-section">22</div>
+        <div class="seat" data-section="upper-balcony-section">23</div>
+        <div class="seat" data-section="upper-balcony-section">24</div>
+        <div class="seat" data-section="upper-balcony-section">25</div>
+        <div class="seat" data-section="upper-balcony-section">26</div>
+        <div class="seat" data-section="upper-balcony-section">27</div>
+        <div class="seat" data-section="upper-balcony-section">28</div>
+        <div class="seat" data-section="upper-balcony-section">29</div>
+        <div class="seat" data-section="upper-balcony-section">30</div>
+        <div class="seat" data-section="upper-balcony-section">31</div>
+        <div class="seat" data-section="upper-balcony-section">32</div>
+        <div class="seat" data-section="upper-balcony-section">33</div>
+        <div class="seat" data-section="upper-balcony-section">34</div>
+        <div class="seat" data-section="upper-balcony-section">35</div>
+        <div class="seat" data-section="upper-balcony-section">36</div>
+        <div class="seat" data-section="upper-balcony-section">37</div>
+        <div class="seat" data-section="upper-balcony-section">38</div>
+        <div class="seat" data-section="upper-balcony-section">39</div>
+        <div class="seat" data-section="upper-balcony-section">40</div>
+        <div class="seat" data-section="upper-balcony-section">41</div>
+
+    </div>
+
+    <!-- Rs. 150 Lower Balcony -->
+      <h3>Rs. 150 LOWER BALCONY</h3>
+      <div class="lower-balcony-section">
+        <div class="row lower-row-K">
+            <div class="row-label">K</div>
+            <!-- Generate seats from 1 to 47 -->
+            <div class="seat" data-section="lower-balcony-section">01</div>
+        <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div>
+        <div class="seat" data-section="lower-balcony-section">39</div>
+        <div class="seat" data-section="lower-balcony-section">40</div>
+        <div class="seat" data-section="lower-balcony-section">41</div>
+        <div class="seat" data-section="lower-balcony-section">42</div>
+        </div>
+
+        
+        <div class="row lower-row-A">
+            <div class="row-label">A</div>
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div> 
+        </div>
+
+        <div class="row lower-row-A">
+            <div class="row-label">B</div>
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div> 
+        </div>
+        <div class="row lower-row-A">
+            <div class="row-label">C</div>
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div> 
+        </div>
+        <div class="row lower-row-A">
+            <div class="row-label">D</div>
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div>
+        </div>
+        <div class="row lower-row-A">
+            <div class="row-label">E</div>
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div> 
+        </div>
+        <div class="row lower-row-F">
+            <div class="row-label">F</div>
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div>
+        </div>
+        <div class="row lower-row-A">
+            <div class="row-label">G</div>
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>
+        <div class="seat" data-section="lower-balcony-section">38</div> 
+        </div>
+
+        <div class="divider-row"></div>
+        <div class="row-label-wrapper">
+            <div class="row-label">H</div>
+        </div>
+        <div class="row lower-row-h">
+            
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div> 
+        </div>
+
+        <div class="row-label-wrapper">
+            <div class="row-label">I</div>
+        </div>
+        <div class="row lower-row-i">
+            
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        </div>
+        <div class="row-label-wrapper">
+            <div class="row-label">J</div>
+        </div>
+        <div class="row lower-row-i">
+            
+            <!-- Seats for Row A -->
+            <div class="seat" data-section="lower-balcony-section">02</div>
+        <div class="seat" data-section="lower-balcony-section">03</div>
+        <div class="seat" data-section="lower-balcony-section">04</div>
+        <div class="seat" data-section="lower-balcony-section">05</div>
+        <div class="seat" data-section="lower-balcony-section">06</div>
+        <div class="seat" data-section="lower-balcony-section">07</div>
+        <div class="seat" data-section="lower-balcony-section">08</div>
+        <div class="seat" data-section="lower-balcony-section">09</div>
+        <div class="seat" data-section="lower-balcony-section">10</div>
+        <div class="seat" data-section="lower-balcony-section">11</div>
+        <div class="seat" data-section="lower-balcony-section">12</div>
+        <div class="seat" data-section="lower-balcony-section">13</div>
+        <div class="seat" data-section="lower-balcony-section">14</div>
+        <div class="seat" data-section="lower-balcony-section">15</div>
+        <div class="seat" data-section="lower-balcony-section">16</div>
+        <div class="seat" data-section="lower-balcony-section">17</div>
+        <div class="seat" data-section="lower-balcony-section">18</div>
+        <div class="seat" data-section="lower-balcony-section">19</div>
+        <div class="seat" data-section="lower-balcony-section">20</div>
+        <div class="seat" data-section="lower-balcony-section">21</div>
+        <div class="seat" data-section="lower-balcony-section">22</div>
+        <div class="seat" data-section="lower-balcony-section">23</div>
+        <div class="seat" data-section="lower-balcony-section">24</div>
+        <div class="seat" data-section="lower-balcony-section">25</div>
+        <div class="seat" data-section="lower-balcony-section">26</div>
+        <div class="seat" data-section="lower-balcony-section">27</div>
+        <div class="seat" data-section="lower-balcony-section">28</div>
+        <div class="seat" data-section="lower-balcony-section">29</div>
+        <div class="seat" data-section="lower-balcony-section">30</div>
+        <div class="seat" data-section="lower-balcony-section">31</div>
+        <div class="seat" data-section="lower-balcony-section">32</div>
+        <div class="seat" data-section="lower-balcony-section">33</div>
+        <div class="seat" data-section="lower-balcony-section">34</div>
+        <div class="seat" data-section="lower-balcony-section">35</div>
+        <div class="seat" data-section="lower-balcony-section">36</div>
+        <div class="seat" data-section="lower-balcony-section">37</div>        </div>        
+</div>
+
+    <!-- Rs. 110 First Class -->
+    <h3>Rs. 110 FIRST CLASS</h3>
+    <div class="first-class-section">
+        <div class="row row-A">
+            <div class="row-label">A</div>
+            <!-- Generate seats from 1 to 47 -->
+            <div class="seat" data-section="first-class-section">01</div>
+        <div class="seat" data-section="first-class-section">02</div>
+        <div class="seat" data-section="first-class-section">03</div>
+        <div class="seat" data-section="first-class-section">04</div>
+        <div class="seat" data-section="first-class-section">05</div>
+        <div class="seat" data-section="first-class-section">06</div>
+        <div class="seat" data-section="first-class-section">07</div>
+        <div class="seat" data-section="first-class-section">08</div>
+        <div class="seat" data-section="first-class-section">09</div>
+        <div class="seat" data-section="first-class-section">10</div>
+        <div class="seat" data-section="first-class-section">11</div>
+        <div class="seat" data-section="first-class-section">12</div>
+        <div class="seat" data-section="first-class-section">13</div>
+        <div class="seat" data-section="first-class-section">14</div>
+        <div class="seat" data-section="first-class-section">15</div>
+        <div class="seat" data-section="first-class-section">16</div>
+        <div class="seat" data-section="first-class-section">17</div>
+        <div class="seat" data-section="first-class-section">18</div>
+        <div class="seat" data-section="first-class-section">19</div>
+        <div class="seat" data-section="first-class-section">20</div>
+        <div class="seat" data-section="first-class-section">21</div>
+        <div class="seat" data-section="first-class-section">22</div>
+        <div class="seat" data-section="first-class-section">23</div>
+        <div class="seat" data-section="first-class-section">24</div>
+        <div class="seat" data-section="first-class-section">25</div>
+        <div class="seat" data-section="first-class-section">26</div>
+        <div class="seat" data-section="first-class-section">27</div>
+        <div class="seat" data-section="first-class-section">28</div>
+        <div class="seat" data-section="first-class-section">29</div>
+        <div class="seat" data-section="first-class-section">30</div>
+        <div class="seat" data-section="first-class-section">31</div>
+        <div class="seat" data-section="first-class-section">32</div>
+        <div class="seat" data-section="first-class-section">33</div>
+        <div class="seat" data-section="first-class-section">34</div>
+        <div class="seat" data-section="first-class-section">35</div>
+        <div class="seat" data-section="first-class-section">36</div>
+        <div class="seat" data-section="first-class-section">37</div>
+        <div class="seat" data-section="first-class-section">38</div>
+        <div class="seat" data-section="first-class-section">39</div>
+        <div class="seat" data-section="first-class-section">40</div>
+        <div class="seat" data-section="first-class-section">41</div>
+        <div class="seat" data-section="first-class-section">42</div>
+        <div class="seat" data-section="first-class-section">43</div>
+        <div class="seat" data-section="first-class-section">44</div>
+        <div class="seat" data-section="first-class-section">45</div>
+        <div class="seat" data-section="first-class-section">46</div>
+        <div class="seat" data-section="first-class-section">47</div>
+
+        </div>
+        <div class="first-class-section">
+            <div class="row row-B">
+                <div class="row-label">B</div>
+                <!-- Generate seats from 1 to 47 -->
+                <div class="seat" data-section="first-class-section">01</div>
+                <div class="seat" data-section="first-class-section">02</div>
+                <div class="seat" data-section="first-class-section">03</div>
+                <div class="seat" data-section="first-class-section">04</div>
+                <div class="seat" data-section="first-class-section">05</div>
+                <div class="seat" data-section="first-class-section">06</div>
+                <div class="seat" data-section="first-class-section">07</div>
+                <div class="seat" data-section="first-class-section">08</div>
+                <div class="seat" data-section="first-class-section">09</div>
+                <div class="seat" data-section="first-class-section">10</div>
+                <div class="seat" data-section="first-class-section">11</div>
+                <div class="seat" data-section="first-class-section">12</div>
+                <div class="seat" data-section="first-class-section">13</div>
+                <div class="seat" data-section="first-class-section">14</div>
+                <div class="seat" data-section="first-class-section">15</div>
+                <div class="seat" data-section="first-class-section">16</div>
+                <div class="seat" data-section="first-class-section">17</div>
+                <div class="seat" data-section="first-class-section">18</div>
+                <div class="seat" data-section="first-class-section">19</div>
+                <div class="seat" data-section="first-class-section">20</div>
+                <div class="seat" data-section="first-class-section">21</div>
+                <div class="seat" data-section="first-class-section">22</div>
+                <div class="seat" data-section="first-class-section">23</div>
+                <div class="seat" data-section="first-class-section">24</div>
+                <div class="seat" data-section="first-class-section">25</div>
+                <div class="seat" data-section="first-class-section">26</div>
+                <div class="seat" data-section="first-class-section">27</div>
+                <div class="seat" data-section="first-class-section">28</div>
+                <div class="seat" data-section="first-class-section">29</div>
+                <div class="seat" data-section="first-class-section">30</div>
+                <div class="seat" data-section="first-class-section">31</div>
+                <div class="seat" data-section="first-class-section">32</div>
+                <div class="seat" data-section="first-class-section">33</div>
+                <div class="seat" data-section="first-class-section">34</div>
+                <div class="seat" data-section="first-class-section">35</div>
+                <div class="seat" data-section="first-class-section">36</div>
+                <div class="seat" data-section="first-class-section">37</div>
+            </div>
+            <div class="first-class-section">
+                <div class="row row-B">
+                    <div class="row-label">C</div>
+                    <!-- Generate seats from 1 to 47 -->
+                    <div class="seat" data-section="first-class-section">01</div>
+                    <div class="seat" data-section="first-class-section">02</div>
+                    <div class="seat" data-section="first-class-section">03</div>
+                    <div class="seat" data-section="first-class-section">04</div>
+                    <div class="seat" data-section="first-class-section">05</div>
+                    <div class="seat" data-section="first-class-section">06</div>
+                    <div class="seat" data-section="first-class-section">07</div>
+                    <div class="seat" data-section="first-class-section">08</div>
+                    <div class="seat" data-section="first-class-section">09</div>
+                    <div class="seat" data-section="first-class-section">10</div>
+                    <div class="seat" data-section="first-class-section">11</div>
+                    <div class="seat" data-section="first-class-section">12</div>
+                    <div class="seat" data-section="first-class-section">13</div>
+                    <div class="seat" data-section="first-class-section">14</div>
+                    <div class="seat" data-section="first-class-section">15</div>
+                    <div class="seat" data-section="first-class-section">16</div>
+                    <div class="seat" data-section="first-class-section">17</div>
+                    <div class="seat" data-section="first-class-section">18</div>
+                    <div class="seat" data-section="first-class-section">19</div>
+                    <div class="seat" data-section="first-class-section">20</div>
+                    <div class="seat" data-section="first-class-section">21</div>
+                    <div class="seat" data-section="first-class-section">22</div>
+                    <div class="seat" data-section="first-class-section">23</div>
+                    <div class="seat" data-section="first-class-section">24</div>
+                    <div class="seat" data-section="first-class-section">25</div>
+                    <div class="seat" data-section="first-class-section">26</div>
+                    <div class="seat" data-section="first-class-section">27</div>
+                    <div class="seat" data-section="first-class-section">28</div>
+                    <div class="seat" data-section="first-class-section">29</div>
+                    <div class="seat" data-section="first-class-section">30</div>
+                    <div class="seat" data-section="first-class-section">31</div>
+                    <div class="seat" data-section="first-class-section">32</div>
+                    <div class="seat" data-section="first-class-section">33</div>
+                    <div class="seat" data-section="first-class-section">34</div>
+                    <div class="seat" data-section="first-class-section">35</div>
+                    <div class="seat" data-section="first-class-section">36</div>
+                    
+                </div>
+      
+    </div>
+
+    <h3>Rs. 50 THIRD CLASS</h3>
+<div class="third-class-section">
+    <!-- Row A: No gaps between seats -->
+    <div class="row row-A">
+        <div class="row-label">A</div>
+        <!-- Generate seats from 1 to 49 for Row A -->
+        <div class="seat" data-section="third-class-section">01</div>
+        <div class="seat" data-section="third-class-section">02</div>
+        <div class="seat" data-section="third-class-section">03</div>
+        <div class="seat" data-section="third-class-section">04</div>
+        <div class="seat" data-section="third-class-section">05</div>
+        <div class="seat" data-section="third-class-section">06</div>
+        <div class="seat" data-section="third-class-section">07</div>
+        <div class="seat" data-section="third-class-section">08</div>
+        <div class="seat" data-section="third-class-section">09</div>
+        <div class="seat" data-section="third-class-section">10</div>
+        <div class="seat" data-section="third-class-section">11</div>
+        <div class="seat" data-section="third-class-section">12</div>
+        <div class="seat" data-section="third-class-section">13</div>
+        <div class="seat" data-section="third-class-section">14</div>
+        <div class="seat" data-section="third-class-section">15</div>
+        <div class="seat" data-section="third-class-section">16</div>
+        <div class="seat" data-section="third-class-section">17</div>
+        <div class="seat" data-section="third-class-section">18</div>
+        <div class="seat" data-section="third-class-section">19</div>
+        <div class="seat" data-section="third-class-section">20</div>
+        <div class="seat" data-section="third-class-section">21</div>
+        <div class="seat" data-section="third-class-section">22</div>
+        <div class="seat" data-section="third-class-section">23</div>
+        <div class="seat" data-section="third-class-section">24</div>
+        <div class="seat" data-section="third-class-section">25</div>
+        <div class="seat" data-section="third-class-section">26</div>
+        <div class="seat" data-section="third-class-section">27</div>
+        <div class="seat" data-section="third-class-section">28</div>
+        <div class="seat" data-section="third-class-section">29</div>
+        <div class="seat" data-section="third-class-section">30</div>
+        <div class="seat" data-section="third-class-section">31</div>
+        <div class="seat" data-section="third-class-section">32</div>
+        <div class="seat" data-section="third-class-section">33</div>
+        <div class="seat" data-section="third-class-section">34</div>
+        <div class="seat" data-section="third-class-section">35</div>
+        <div class="seat" data-section="third-class-section">36</div>
+        <div class="seat" data-section="third-class-section">37</div>
+        <div class="seat" data-section="third-class-section">38</div>
+        <div class="seat" data-section="third-class-section">39</div>
+        <div class="seat" data-section="third-class-section">40</div>
+        <div class="seat" data-section="third-class-section">41</div>
+        <div class="seat" data-section="third-class-section">42</div>
+        <div class="seat" data-section="third-class-section">43</div>
+        <div class="seat" data-section="third-class-section">44</div>
+        <div class="seat" data-section="third-class-section">45</div>
+        <div class="seat" data-section="third-class-section">46</div>
+        <div class="seat" data-section="third-class-section">47</div>
+        <div class="seat" data-section="third-class-section">48</div>
+        <div class="seat" data-section="third-class-section">49</div>
+
+    </div>
+
+    <!-- Row B: Specific gaps only -->
+    <div class="row row-B">
+        <div class="row-label">B</div>
+        <!-- Generate seats from 1 to 42 for Row B -->
+        <div class="seat" data-section="third-class-section">01</div>
+        <div class="seat" data-section="third-class-section">02</div>
+        <div class="seat" data-section="third-class-section">03</div>
+        <div class="seat" data-section="third-class-section">04</div>
+        <div class="seat" data-section="third-class-section">05</div>
+        <div class="seat" data-section="third-class-section">06</div>
+        <div class="seat" data-section="third-class-section">07</div>
+        <div class="seat" data-section="third-class-section">08</div>
+        <div class="seat" data-section="third-class-section">09</div>
+        <div class="seat" data-section="third-class-section">10</div>
+        <div class="seat" data-section="third-class-section">11</div>
+        <div class="seat" data-section="third-class-section">12</div>
+        <div class="seat" data-section="third-class-section">13</div>
+        <div class="seat" data-section="third-class-section">14</div>
+        <div class="seat" data-section="third-class-section">15</div>
+        <div class="seat" data-section="third-class-section">16</div>
+        <div class="seat" data-section="third-class-section">17</div>
+        <div class="seat" data-section="third-class-section">18</div>
+        <div class="seat" data-section="third-class-section">19</div>
+        <div class="seat" data-section="third-class-section">20</div>
+        <div class="seat" data-section="third-class-section">21</div>
+        <div class="seat" data-section="third-class-section">22</div>
+        <div class="seat" data-section="third-class-section">23</div>
+        <div class="seat" data-section="third-class-section">24</div>
+        <div class="seat" data-section="third-class-section">25</div>
+        <div class="seat" data-section="third-class-section">26</div>
+        <div class="seat" data-section="third-class-section">27</div>
+        <div class="seat" data-section="third-class-section">28</div>
+        <div class="seat" data-section="third-class-section">29</div>
+        <div class="seat" data-section="third-class-section">30</div>
+        <div class="seat" data-section="third-class-section">31</div>
+        <div class="seat" data-section="third-class-section">32</div>
+        <div class="seat" data-section="third-class-section">33</div>
+        <div class="seat" data-section="third-class-section">34</div>
+        <div class="seat" data-section="third-class-section">35</div>
+        <div class="seat" data-section="third-class-section">36</div>
+        <div class="seat" data-section="third-class-section">37</div>
+        <div class="seat" data-section="third-class-section">38</div>
+        <div class="seat" data-section="third-class-section">39</div>
+        <div class="seat" data-section="third-class-section">40</div>
+        <div class="seat" data-section="third-class-section">41</div>
+        <div class="seat" data-section="third-class-section">42</div>
+    </div>
+    <!-- Row B: Specific gaps only -->
+    <div class="row row-B">
+        <div class="row-label">C</div>
+        <!-- Generate seats from 1 to 42 for Row B -->
+        <div class="seat" data-section="third-class-section">01</div>
+        <div class="seat" data-section="third-class-section">02</div>
+        <div class="seat" data-section="third-class-section">03</div>
+        <div class="seat" data-section="third-class-section">04</div>
+        <div class="seat" data-section="third-class-section">05</div>
+        <div class="seat" data-section="third-class-section">06</div>
+        <div class="seat" data-section="third-class-section">07</div>
+        <div class="seat" data-section="third-class-section">08</div>
+        <div class="seat" data-section="third-class-section">09</div>
+        <div class="seat" data-section="third-class-section">10</div>
+        <div class="seat" data-section="third-class-section">11</div>
+        <div class="seat" data-section="third-class-section">12</div>
+        <div class="seat" data-section="third-class-section">13</div>
+        <div class="seat" data-section="third-class-section">14</div>
+        <div class="seat" data-section="third-class-section">15</div>
+        <div class="seat" data-section="third-class-section">16</div>
+        <div class="seat" data-section="third-class-section">17</div>
+        <div class="seat" data-section="third-class-section">18</div>
+        <div class="seat" data-section="third-class-section">19</div>
+        <div class="seat" data-section="third-class-section">20</div>
+        <div class="seat" data-section="third-class-section">21</div>
+        <div class="seat" data-section="third-class-section">22</div>
+        <div class="seat" data-section="third-class-section">23</div>
+        <div class="seat" data-section="third-class-section">24</div>
+        <div class="seat" data-section="third-class-section">25</div>
+        <div class="seat" data-section="third-class-section">26</div>
+        <div class="seat" data-section="third-class-section">27</div>
+        <div class="seat" data-section="third-class-section">28</div>
+        <div class="seat" data-section="third-class-section">29</div>
+        <div class="seat" data-section="third-class-section">30</div>
+        <div class="seat" data-section="third-class-section">31</div>
+        <div class="seat" data-section="third-class-section">32</div>
+        <div class="seat" data-section="third-class-section">33</div>
+        <div class="seat" data-section="third-class-section">34</div>
+        <div class="seat" data-section="third-class-section">35</div>
+        <div class="seat" data-section="third-class-section">36</div>
+        <div class="seat" data-section="third-class-section">37</div>
+        <div class="seat" data-section="third-class-section">38</div>
+        <div class="seat" data-section="third-class-section">39</div>
+        <div class="seat" data-section="third-class-section">40</div>
+        <div class="seat" data-section="third-class-section">41</div>
+        <div class="seat" data-section="third-class-section">42</div>
+    </div>
+    <!-- Row B: Specific gaps only -->
+    <div class="row row-B">
+        <div class="row-label">D</div>
+        <!-- Generate seats from 1 to 42 for Row B -->
+        <div class="seat" data-section="third-class-section">01</div>
+        <div class="seat" data-section="third-class-section">02</div>
+        <div class="seat" data-section="third-class-section">03</div>
+        <div class="seat" data-section="third-class-section">04</div>
+        <div class="seat" data-section="third-class-section">05</div>
+        <div class="seat" data-section="third-class-section">06</div>
+        <div class="seat" data-section="third-class-section">07</div>
+        <div class="seat" data-section="third-class-section">08</div>
+        <div class="seat" data-section="third-class-section">09</div>
+        <div class="seat" data-section="third-class-section">10</div>
+        <div class="seat" data-section="third-class-section">11</div>
+        <div class="seat" data-section="third-class-section">12</div>
+        <div class="seat" data-section="third-class-section">13</div>
+        <div class="seat" data-section="third-class-section">14</div>
+        <div class="seat" data-section="third-class-section">15</div>
+        <div class="seat" data-section="third-class-section">16</div>
+        <div class="seat" data-section="third-class-section">17</div>
+        <div class="seat" data-section="third-class-section">18</div>
+        <div class="seat" data-section="third-class-section">19</div>
+        <div class="seat" data-section="third-class-section">20</div>
+        <div class="seat" data-section="third-class-section">21</div>
+        <div class="seat" data-section="third-class-section">22</div>
+        <div class="seat" data-section="third-class-section">23</div>
+        <div class="seat" data-section="third-class-section">24</div>
+        <div class="seat" data-section="third-class-section">25</div>
+        <div class="seat" data-section="third-class-section">26</div>
+        <div class="seat" data-section="third-class-section">27</div>
+        <div class="seat" data-section="third-class-section">28</div>
+        <div class="seat" data-section="third-class-section">29</div>
+        <div class="seat" data-section="third-class-section">30</div>
+        <div class="seat" data-section="third-class-section">31</div>
+        <div class="seat" data-section="third-class-section">32</div>
+        <div class="seat" data-section="third-class-section">33</div>
+        <div class="seat" data-section="third-class-section">34</div>
+        <div class="seat" data-section="third-class-section">35</div>
+        <div class="seat" data-section="third-class-section">36</div>
+        <div class="seat" data-section="third-class-section">37</div>
+        <div class="seat" data-section="third-class-section">38</div>
+        <div class="seat" data-section="third-class-section">39</div>
+        <div class="seat" data-section="third-class-section">40</div>
+        <div class="seat" data-section="third-class-section">41</div>
+        <div class="seat" data-section="third-class-section">42</div>
+    </div>
+    <!-- Row B: Specific gaps only -->
+    <div class="row row-B">
+        <div class="row-label">E</div>
+        <!-- Generate seats from 1 to 42 for Row B -->
+        <div class="seat" data-section="third-class-section">01</div>
+        <div class="seat" data-section="third-class-section">02</div>
+        <div class="seat" data-section="third-class-section">03</div>
+        <div class="seat" data-section="third-class-section">04</div>
+        <div class="seat" data-section="third-class-section">05</div>
+        <div class="seat" data-section="third-class-section">06</div>
+        <div class="seat" data-section="third-class-section">07</div>
+        <div class="seat" data-section="third-class-section">08</div>
+        <div class="seat" data-section="third-class-section">09</div>
+        <div class="seat" data-section="third-class-section">10</div>
+        <div class="seat" data-section="third-class-section">11</div>
+        <div class="seat" data-section="third-class-section">12</div>
+        <div class="seat" data-section="third-class-section">13</div>
+        <div class="seat" data-section="third-class-section">14</div>
+        <div class="seat" data-section="third-class-section">15</div>
+        <div class="seat" data-section="third-class-section">16</div>
+        <div class="seat" data-section="third-class-section">17</div>
+        <div class="seat" data-section="third-class-section">18</div>
+        <div class="seat" data-section="third-class-section">19</div>
+        <div class="seat" data-section="third-class-section">20</div>
+        <div class="seat" data-section="third-class-section">21</div>
+        <div class="seat" data-section="third-class-section">22</div>
+        <div class="seat" data-section="third-class-section">23</div>
+        <div class="seat" data-section="third-class-section">24</div>
+        <div class="seat" data-section="third-class-section">25</div>
+        <div class="seat" data-section="third-class-section">26</div>
+        <div class="seat" data-section="third-class-section">27</div>
+        <div class="seat" data-section="third-class-section">28</div>
+        <div class="seat" data-section="third-class-section">29</div>
+        <div class="seat" data-section="third-class-section">30</div>
+        <div class="seat" data-section="third-class-section">31</div>
+        <div class="seat" data-section="third-class-section">32</div>
+        <div class="seat" data-section="third-class-section">33</div>
+        <div class="seat" data-section="third-class-section">34</div>
+        <div class="seat" data-section="third-class-section">35</div>
+        <div class="seat" data-section="third-class-section">36</div>
+        <div class="seat" data-section="third-class-section">37</div>
+        <div class="seat" data-section="third-class-section">38</div>
+        <div class="seat" data-section="third-class-section">39</div>
+        <div class="seat" data-section="third-class-section">40</div>
+        <div class="seat" data-section="third-class-section">41</div>
+        <div class="seat" data-section="third-class-section">42</div>
+    </div><!-- Row B: Specific gaps only -->
+    <div class="row row-F">
+        <div class="row-label">F</div>
+        <!-- Generate seats from 1 to 42 for Row B -->
+        <div class="seat" data-section="third-class-section">01</div>
+        <div class="seat" data-section="third-class-section">02</div>
+        <div class="seat" data-section="third-class-section">03</div>
+        <div class="seat" data-section="third-class-section">04</div>
+        <div class="seat" data-section="third-class-section">05</div>
+        <div class="seat" data-section="third-class-section">06</div>
+        <div class="seat" data-section="third-class-section">07</div>
+        <div class="seat" data-section="third-class-section">08</div>
+        <div class="seat" data-section="third-class-section">09</div>
+        <div class="seat" data-section="third-class-section">10</div>
+        <div class="seat" data-section="third-class-section">11</div>
+        <div class="seat" data-section="third-class-section">12</div>
+        <div class="seat" data-section="third-class-section">13</div>
+        <div class="seat" data-section="third-class-section">14</div>
+        <div class="seat" data-section="third-class-section">15</div>
+        <div class="seat" data-section="third-class-section">16</div>
+        <div class="seat" data-section="third-class-section">17</div>
+        <div class="seat" data-section="third-class-section">18</div>
+        <div class="seat" data-section="third-class-section">19</div>
+        <div class="seat" data-section="third-class-section">20</div>
+        <div class="seat" data-section="third-class-section">21</div>
+        <div class="seat" data-section="third-class-section">22</div>
+        <div class="seat" data-section="third-class-section">23</div>
+        <div class="seat" data-section="third-class-section">24</div>
+        <div class="seat" data-section="third-class-section">25</div>
+        <div class="seat" data-section="third-class-section">26</div>
+        <div class="seat" data-section="third-class-section">27</div>
+        <div class="seat" data-section="third-class-section">28</div>
+        <div class="seat" data-section="third-class-section">29</div>
+        <div class="seat" data-section="third-class-section">30</div>
+        <div class="seat" data-section="third-class-section">31</div>
+        <div class="seat" data-section="third-class-section">32</div>
+    </div>
+    <div class="row row-G">
+        <div class="row-label">G</div>
+        <!-- Generate seats from 1 to 42 for Row B -->
+        <div class="seat" data-section="third-class-section">01</div>
+        <div class="seat" data-section="third-class-section">02</div>
+        <div class="seat" data-section="third-class-section">03</div>
+        <div class="seat" data-section="third-class-section">04</div>
+        <div class="seat" data-section="third-class-section">05</div>
+        <div class="seat" data-section="third-class-section">06</div>
+        <div class="seat" data-section="third-class-section">07</div>
+        <div class="seat" data-section="third-class-section">08</div>
+        <div class="seat" data-section="third-class-section">09</div>
+        <div class="seat" data-section="third-class-section">10</div>
+        <div class="seat" data-section="third-class-section">11</div>
+        <div class="seat" data-section="third-class-section">12</div>
+        <div class="seat" data-section="third-class-section">13</div>
+        <div class="seat" data-section="third-class-section">14</div>
+        <div class="seat" data-section="third-class-section">15</div>
+        <div class="seat" data-section="third-class-section">16</div>
+    </div>
+
+</div>
+<!-- Screen Indicator -->
+<div class="screen-indicator">
+    <span>SCREEN</span>
+</div>
+
+<!-- Legend Section -->
+<div class="seat-legend">
+    <div class="legend-item">
+        <div class="seat available"></div>
+        <span>Available</span>
+    </div>
+    <div class="legend-item">
+        <div class="seat selected"></div>
+        <span>Selected</span>
+    </div>
+    <div class="legend-item">
+        <div class="seat sold"></div>
+        <span>Sold</span>
+    </div>
+</div>
+<!-- Payment Button Container -->
+<!-- Payment Button Container -->
+<div id="payment-container" class="payment-container">
+    <button id="pay-button" class="pay-button" onclick="location.href='payment.html'">Pay Rs.0</button>
+</div>
+
+        
+
+<script src="seatingHead.js"></script>
+</body>
+</html>

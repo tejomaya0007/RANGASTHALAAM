@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN </title>
+    <link rel="stylesheet" href="SigninStyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> <!-- Fontawesome for icons -->
+</head>
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <div class="Form login-form">
+            <h2>Login</h2>
+            <!-- Notice the addition of the ID "loginForm" -->
+            <form id="loginForm">
+                <div class="input-box">
+                    <i class='bx bxs-user left-icon'></i>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter Your Username*" required>
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock left-icon'></i>
+                    <input type="password" id="password" placeholder="Enter Your Password*" required>
+                    <i class='bx bx-show' id="togglePassword" style="cursor: pointer;"></i>
+                    <label for="password">Password</label>
+                </div>
+        
+                <div class="forgot-section">
+                    <span><input type="checkbox" id="checked">Remember Me</span>
+                    <span><a href="#">Forgot Password?</a></span>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p>Or Sign up using</p>
+            <div class="social-media">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-google'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+            <p class="RegisteBtn"><a href="#">Register Now</a></p>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="Form Register-form">
+            <h2>Register</h2>
+            <!-- Step 1 of the registration -->
+            <div class="step step-1 active">
+                <form action="#">
+                    <div class="input-box">
+                        <i class='bx bxs-user left-icon'></i>
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter Your Username*" required>
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-envelope left-icon'></i>
+                        <input type="email" id="email" placeholder="Enter Your Email*" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <button class="btn nextBtn">Next</button>
+                </form>
+            </div>
+
+            <!-- Step 2 of the registration -->
+            <div class="step step-2">
+                <form action="#">
+                    <div class="input-box">
+                        <i class='bx bxs-calendar left-icon'></i>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" placeholder="Enter Your Date of Birth*" required>
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-phone left-icon'></i>
+                        <input type="tel" id="number" placeholder="Enter Your Mobile Number*" required>
+                        <label for="number">Mobile Number</label>
+                    </div>
+                    <button class="btn nextBtn">Next</button>
+                </form>
+            </div>
+
+            <!-- Step 3 of the registration (Password Validation) -->
+            <div class="step step-3">
+                <form id="registerForm">
+                    <div class="input-box pass-field">
+                        <i class='bx bxs-lock left-icon'></i>
+                        <input type="password" id="passwordInput" placeholder="Create password" required>
+                        <i class="fa-solid fa-eye" id="togglePasswordEye"></i>
+                    </div>
+                    <div class="content">
+                        <p>Password must contain</p>
+                        <ul class="requirement-list">
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>At least 8 characters</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>At least 1 number (0-9)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>At least 1 lowercase letter (a-z)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>At least 1 special symbol (!-@)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>At least 1 uppercase letter (A-Z)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="submit" class="btn registerBtn">Register</button>
+                </form>
+            </div>
+
+            <p>Or Sign up using</p>
+            <div class="social-media">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-google'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+            <p>Already Registered user??</p>
+            <p class="LoginBtn"><a href="#">Login</a></p>
+        </div>
+    </div>
+
+    <!-- WebGL Canvas for the background effect -->
+    <canvas id="canvas"></canvas>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const loginForm = document.querySelector('.login-form');
+    const RegisterForm = document.querySelector('.Register-form');
+    const RegiBtn = document.querySelector('.RegisteBtn a'); // Ensure this selector points to the correct element
+    const LoginBtn = document.querySelector('.LoginBtn a');  // Ensure this selector points to the correct element
+    const nextBtns = document.querySelectorAll('.nextBtn');
+    const steps = document.querySelectorAll('.step');
+    let currentStep = 0;
+
+    // Show Registration Form and Hide Login Form
+    RegiBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        RegisterForm.classList.add('active');
+        RegisterForm.classList.remove('hidden');
+        loginForm.classList.add('hidden');
+        loginForm.classList.remove('active');
+    });
+
+    // Show Login Form and Hide Registration Form
+    LoginBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        RegisterForm.classList.add('hidden');
+        RegisterForm.classList.remove('active');
+        loginForm.classList.add('active');
+        loginForm.classList.remove('hidden');
+        steps[currentStep].classList.remove('active');
+        currentStep = 0;
+        steps[currentStep].classList.add('active');
+    });
+
+    // Multi-step form navigation for registration
+    nextBtns.forEach(nextBtn => {
+        nextBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (currentStep < steps.length - 1) {
+                steps[currentStep].classList.remove('active');
+                currentStep++;
+                steps[currentStep].classList.add('active');
+            }
+        });
+    });
+});
+
+
+    // Password validation for registration form
+    const passwordInputRegister = document.getElementById('passwordInput');
+    const eyeIconRegister = document.getElementById('togglePasswordEye');
+    const requirementList = document.querySelectorAll('.requirement-list li');
+
+    const requirements = [
+        { regex: /.{8,}/, index: 0 }, // Minimum 8 characters
+        { regex: /[0-9]/, index: 1 }, // At least one number
+        { regex: /[a-z]/, index: 2 }, // At least one lowercase letter
+        { regex: /[^A-Za-z0-9]/, index: 3 }, // At least one special character
+        { regex: /[A-Z]/, index: 4 }, // At least one uppercase letter
+    ];
+
+    passwordInputRegister.addEventListener('keyup', (e) => {
+        requirements.forEach(item => {
+            const isValid = item.regex.test(e.target.value);
+            const requirementItem = requirementList[item.index];
+
+            if (isValid) {
+                requirementItem.classList.add('valid');
+                requirementItem.firstElementChild.className = 'fa-solid fa-check';
+            } else {
+                requirementItem.classList.remove('valid');
+                requirementItem.firstElementChild.className = 'fa-solid fa-circle';
+            }
+        });
+    });
+
+    // Toggle password visibility for registration form
+    eyeIconRegister.addEventListener('click', () => {
+        const type = passwordInputRegister.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInputRegister.setAttribute('type', type);
+        
+        // Toggle the eye icon's appearance
+        eyeIconRegister.className = type === 'password' ? 'fa-solid fa-eye' : 'fa-solid fa-eye-slash';
+    });
+
+    // Toggle password visibility for login form
+    const togglePassword = document.getElementById('togglePassword');
+    const passwordInputLogin = document.getElementById('password');
+
+    togglePassword.addEventListener('click', function () {
+        const type = passwordInputLogin.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInputLogin.setAttribute('type', type);
+
+        // Toggle the eye icon's appearance
+        this.className = type === 'password' ? 'fa-solid fa-eye' : 'fa-solid fa-eye-slash';
+    });
+
+    // Handle login form submission
+    document.getElementById('loginForm').addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        try {
+            const response = await fetch('/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password }),
+            });
+
+            if (response.ok) {
+                localStorage.setItem('isLoggedIn', 'true');
+                window.location.href = '/homepage.html'; // Redirect to homepage
+            } else {
+                const result = await response.json();
+                alert(result.message);
+            }
+        } catch (error) {
+            alert('An error occurred. Please try again.');
+        }
+    });
+
+    // Handle registration form submission
+    document.getElementById('registerForm').addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        // Capture values from each step directly
+        const username = document.querySelector('.step-1 #username')?.value || '';
+        const email = document.querySelector('.step-1 #email')?.value || '';
+        const dob = document.querySelector('.step-2 #dob')?.value || '';
+        const mobile = document.querySelector('.step-2 #number')?.value || '';
+        const password = document.querySelector('.step-3 #passwordInput')?.value || '';
+
+        // Check if any field is missing
+        if (!username || !email || !dob || !mobile || !password) {
+            alert("All fields are required.");
+            return;
+        }
+
+        try {
+            const response = await fetch('/register', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, email, dob, mobile, password }),
+            });
+
+            if (response.ok) {
+                alert('Registration successful. Redirecting to login page...');
+                RegisterForm.classList.remove('active');
+                loginForm.classList.add('active');
+            } else {
+                const result = await response.json();
+                alert(result.message);
+            }
+        } catch (error) {
+            alert('An error occurred during registration. Please try again.');
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+        // WebGL Background Effect
+        (function() {
+            const canvas = document.getElementById('canvas');
+            const gl = canvas.getContext('webgl2');
+
+            if (!gl) {
+                console.error("WebGL not supported");
+                return;
+            }
+
+            function resizeCanvasToDisplaySize(canvas) {
+                const displayWidth = window.innerWidth;
+                const displayHeight = window.innerHeight;
+
+                if (canvas.width !== displayWidth || canvas.height !== displayHeight) {
+                    canvas.width = displayWidth;
+                    canvas.height = displayHeight;
+                }
+            }
+
+            const vertexShaderSource = `
+              attribute vec2 aPosition;
+              void main() {
+                gl_Position = vec4(aPosition, 0.0, 1.0);
+              }
+            `;
+
+            const fragmentShaderSource = `
+              precision highp float;
+              uniform float iTime;
+              uniform vec2 iResolution;
+              void main() {
+                vec2 uv = (gl_FragCoord.xy * 5.5 - iResolution.xy) / iResolution.y;
+                vec2 uv0 = uv;
+                vec3 finalColor = vec3(0.0);
+
+                for (float i = 0.0; i < 1.0; i++) {
+                  uv = uv * 7.0 - 0.9;
+                  float d = length(uv) * exp(-length(uv0));
+                  vec3 col = vec3(0.09, 0.02, 0.20) + vec3(0.09, 0.02, 0.20) * 
+                             cos(1.2 * (vec3(1.0) * (length(uv0) + i * 0.4 + iTime * 0.2) 
+                             + vec3(0.263, 0.416, 0.557)));
+
+                  d = sin(d * 6.0 + iTime * 0.1) / 10.0;
+                  d = abs(d);
+
+                  d = pow(0.00000001 / d, 0.04);
+
+                  finalColor += col * d;
+                }
+
+                gl_FragColor = vec4(finalColor, 1.0);
+              }
+            `;
+
+            function createShader(gl, type, source) {
+                const shader = gl.createShader(type);
+                gl.shaderSource(shader, source);
+                gl.compileShader(shader);
+                if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+                    console.error('Shader compile failed:', gl.getShaderInfoLog(shader));
+                    gl.deleteShader(shader);
+                    return null;
+                }
+                return shader;
+            }
+
+            function createProgram(gl, vertexShader, fragmentShader) {
+                const program = gl.createProgram();
+                gl.attachShader(program, vertexShader);
+                gl.attachShader(program, fragmentShader);
+                gl.linkProgram(program);
+                if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+                    console.error('Program link failed:', gl.getProgramInfoLog(program));
+                    gl.deleteProgram(program);
+                    return null;
+                }
+                return program;
+            }
+
+            const vertexShader = createShader(gl, gl.VERTEX_SHADER, vertexShaderSource);
+            const fragmentShader = createShader(gl, gl.FRAGMENT_SHADER, fragmentShaderSource);
+            const program = createProgram(gl, vertexShader, fragmentShader);
+
+            const positionAttributeLocation = gl.getAttribLocation(program, 'aPosition');
+            const iTimeUniformLocation = gl.getUniformLocation(program, 'iTime');
+            const iResolutionUniformLocation = gl.getUniformLocation(program, 'iResolution');
+
+            const positionBuffer = gl.createBuffer();
+            gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+
+            const positions = [
+              -1.0, -1.0,
+               1.0, -1.0,
+              -1.0,  1.0,
+              -1.0,  1.0,
+               1.0, -1.0,
+               1.0,  1.0,
+            ];
+            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
+
+            const vao = gl.createVertexArray();
+            gl.bindVertexArray(vao);
+            gl.enableVertexAttribArray(positionAttributeLocation);
+            gl.vertexAttribPointer(positionAttributeLocation, 2, gl.FLOAT, false, 0, 0);
+
+            function render(time) {
+                resizeCanvasToDisplaySize(gl.canvas);
+                gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
+                gl.clear(gl.COLOR_BUFFER_BIT);
+
+                gl.useProgram(program);
+                gl.bindVertexArray(vao);
+
+                const seconds = time * 0.001;
+                gl.uniform1f(iTimeUniformLocation, seconds);
+                gl.uniform2f(iResolutionUniformLocation, gl.canvas.width, gl.canvas.height);
+
+                gl.drawArrays(gl.TRIANGLES, 0, 6);
+                requestAnimationFrame(render);
+            }
+
+            requestAnimationFrame(render);
+        })();
+    </script>
+</body>
+</html>

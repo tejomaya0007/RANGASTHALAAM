@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swaag</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Assuming styles.css contains common styles -->
+    <link rel="stylesheet" href="../../HomePagestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header with Home, Search, Sign In (Copied from homepage) -->
+  <header>
+    <div class="logo">
+      <!-- Updated path to homepage.html -->
+      <a href="../../../homepage/homepage.html" class="home-link">Home</a>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for Movies, Events, Hackathons">
+    </div>
+    <div class="user-auth">
+      <a href="../../../sign%20in%20page/signin.html" class="button">Sign In</a>
+    </div>
+</header>
+
+
+  <!-- Navigation Bar (Copied from homepage) -->
+  <nav>
+    <ul class="nav-main">
+      <li>Movies</li>
+      <li>Events</li>
+      <li>Hackathons</li>
+    </ul>
+    <ul class="nav-right">
+      <li class="dropdown">
+        Extras
+        <div class="dropdown-content">
+          <a href="#">Offers</a>
+          <a href="#">About</a>
+        </div>
+      </li>
+    </ul>
+    <div class="menu-button" onclick="toggleSidebar()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/>
+      </svg>
+    </div>
+  </nav>
+
+  <!-- Sidebar for mobile view (Optional, copied from homepage) -->
+  <ul class="sidebar" id="mobileSidebar">
+    <li onclick="hideSidebar()" class="close-btn">
+      <i class="fas fa-times"></i>
+    </li>
+    <li><a href="#">Movies</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">Hackathons</a></li>
+    <!-- Dropdown in sidebar -->
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropdown-toggle" onclick="toggleSidebarDropdown()">Extras</a>
+      <ul class="dropdown-content" id="sidebarDropdown">
+        <li><a href="#">Offers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Video Container (Original movie booking content) -->
+  <div class="video-container">
+      <!-- Thumbnail Image -->
+      <img id="thumbnail" src="Tomb Raider-thumbnail.jpg" alt="Thumbnail" class="thumbnail-image" />
+
+      <!-- Background Video -->
+      <video muted id="background-video">
+          <source src="Tomb Raider.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+      </video>
+
+      <!-- Mute/Unmute Button -->
+      <button id="mute-button" class="mute-button">&#128264;</button> <!-- Mute icon by default -->
+
+      <!-- Overlay Gradient -->
+      <div class="gradient-overlay"></div>
+
+      <!-- Content Section -->
+      <div class="overlay-content">
+          <!-- Logo image -->
+          <img src="Tomb Raider-logo.png" alt="swag Logo" class="logo-image">
+
+          <p class="description">
+            Follows heroine Lara Croft as she explores new territory.
+          </p>
+
+          <!-- Movie Info -->
+          <div class="movie-info">
+              <span>IMDb 8.9</span>
+              <span>2024</span>
+              <span>2h 30m</span>
+              <span>X-RAY</span>
+              <span>U/A 16+</span>
+              <span>UHD</span>
+          </div>
+
+          <!-- Categories -->
+          <div class="categories">
+              <a href="#">Comedy</a> • 
+              <a href="#">Drama</a>
+          </div>
+
+          <!-- Buttons Section -->
+          <div class="buttons">
+              <button class="play-button" id="book-now">
+                  <span>&#9658;</span> watch now
+              </button>
+              <button class="icon-button">&#x1F44D;</button>
+              <button class="icon-button">&#x1F44E;</button>
+              <button class="icon-button">&#x2795;</button>
+              <button class="icon-button">&#x1F517;</button>
+          </div>
+      </div>
+  </div>
+
+  <div class="black-section">
+      <!-- This section will have a black background -->
+      <p>Additional content here.</p>
+  </div>
+
+  <!-- Link to JS file -->
+  <script src="scripts.js"></script>
+  <script src="scripthome.js"></script>
+
+</body>
+</html>

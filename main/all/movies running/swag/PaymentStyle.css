@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:black !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Section */
+header {
+    width: 100%;
+    background-color:#030212;
+    padding: 15px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Adds padding to create space */
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-left: 50; /* Removes any extra space on the left */
+}
+
+/* To make "Home" text stick more to the left edge of the header */
+.header-content {
+    justify-content: flex-start;
+}
+
+/* Main Content Container */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Contact Details Section */
+.contact-section {
+    background-color: rgba(255,255,255,0.09);
+    padding: 15px;
+    
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h3 {
+    color: #ffcc00;
+    background-color: #08062d;
+    padding: 10px;
+    margin: -15px -15px 15px -15px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #08062d;
+    color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    color:white;
+    background-color:#ffcc00;
+    
+}
+
+
+/* Order Summary Section */
+.order-summary {
+    background-color:rgba(255,255,255,0.09);
+    padding: 15px;
+    border: 1px solid rgba(255, 170, 0, 0.9) ;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h3 {
+    text-align: left;
+    font-size: 1rem;
+    color: #ffcc00;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.order-details {
+    padding: 10px 0;
+    color: #ffcc00;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.price-breakdown {
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+}
+
+.price-breakdown p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.total {
+    font-weight: bold;
+    color: #ffcc00;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.ptotal {
+    color: #ffcc00;
+}
+
+

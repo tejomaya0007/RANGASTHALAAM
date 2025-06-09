@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hack Celestia Hackathon Registration</title>
+  <style>
+    /* Reset some default styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header styling */
+    header {
+      background-color: #030212;
+      color: #ffd700;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    /* Form container styling */
+    .form-container {
+      background-color: #333;
+      color: #ffd700;
+      padding: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    /* Red asterisk for required fields */
+    .form-group label.required:after {
+      content: " *";
+      color: red;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 16px;
+      color: #ffd700;
+      margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    select {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #555;
+      color: #bbb;
+    }
+
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .button-group button {
+      padding: 10px 20px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      background-color: #555;
+      color: #fff;
+      cursor: pointer;
+      flex: 1 1 30%;
+    }
+
+    .button-group button.selected {
+      background-color: #ffd700;
+      color: #000;
+    }
+
+    .button-group button:hover {
+      background-color: #777;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .nav-buttons button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .nav-buttons button:first-child {
+      background-color: #555;
+      color: #fff;
+    }
+
+    .nav-buttons button:last-child {
+      background-color: #ffd700;
+      color: #000;
+    }
+
+    .nav-buttons button:hover {
+      background-color: #e0b800;
+    }
+  </style>
+</head>
+<body style="background-color: #000;">
+
+<!-- Header section with hackathon title and search bar -->
+<header>
+  <h1>Hack Celestia Hackathon</h1>
+</header>
+
+<!-- Main container for registration form -->
+<div class="form-container">
+  <h2>Hackathon Registration Form</h2>
+
+  <form>
+    <!-- Email field -->
+    <div class="form-group">
+      <label for="email" class="required">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required 
+             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+             title="Please enter a valid email address (e.g., example@example.com)">
+    </div>
+
+    <!-- Mobile field -->
+    <div class="form-group">
+      <label for="mobile" class="required">Mobile</label>
+      <input type="tel" id="mobile" placeholder="+91 9640878600" required 
+             pattern="^\+91[0-9]{10}$" 
+             title="Please enter a valid mobile number starting with +91 followed by 10 digits">
+    </div>
+
+    <!-- First Name and Last Name fields -->
+    <div class="form-group">
+      <label for="first-name" class="required">First Name</label>
+      <input type="text" id="first-name" placeholder="First Name" required>
+    </div>
+    <div class="form-group">
+      <label for="last-name" class="required">Last Name</label>
+      <input type="text" id="last-name" placeholder="Last Name (if applicable)" required>
+    </div>
+
+    <!-- Gender selection -->
+    <div class="form-group">
+      <label class="required">Gender</label>
+      <div class="button-group" id="gender-group">
+        <button type="button" onclick="toggleSelection(this)">Female</button>
+        <button type="button" onclick="toggleSelection(this)">Male</button>
+        <button type="button" onclick="toggleSelection(this)">Transgender</button>
+        <button type="button" onclick="toggleSelection(this)">Intersex</button>
+        <button type="button" onclick="toggleSelection(this)">Non-binary</button>
+        <button type="button" onclick="toggleSelection(this)">Prefer not to say</button>
+        <button type="button" onclick="toggleSelection(this)">Others</button>
+      </div>
+    </div>
+
+    <!-- Institute Name (Dropdown) -->
+    <div class="form-group">
+      <label for="institute-name" class="required">Institute Name</label>
+      <select id="institute-name" required>
+        <option value="">Select your institute</option>
+        <option value="Chaitanya Bharati Institute of Technology">Chaitanya Bharati Institute of Technology</option>
+        <option value="Indian Institute of Technology">Indian Institute of Technology</option>
+        <option value="Banasthali Vidyapith">Banasthali Vidyapith</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <!-- Type selection -->
+    <div class="form-group">
+      <label class="required">Type</label>
+      <div class="button-group" id="type-group">
+        <button type="button" onclick="toggleSelection(this)">College Student</button>
+        <button type="button" onclick="toggleSelection(this)">Professional</button>
+        <button type="button" onclick="toggleSelection(this)">Others</button>
+        <button type="button" onclick="toggleSelection(this)">School Student</button>
+        <button type="button" onclick="toggleSelection(this)">Fresher</button>
+      </div>
+    </div>
+
+    <!-- Course (Dropdown) -->
+    <div class="form-group">
+      <label for="course" class="required">Course</label>
+      <select id="course" required>
+        <option value="">Select your course</option>
+        <option value="B. Tech/BE">B. Tech/BE (Bachelor of Technology/Bachelor of Engineering)</option>
+        <option value="M. Tech/ME">M. Tech/ME (Master of Technology/Master of Engineering)</option>
+        <option value="B.Sc">B.Sc (Bachelor of Science)</option>
+        <option value="M.Sc">M.Sc (Master of Science)</option>
+      </select>
+    </div>
+
+    <!-- Graduating Year -->
+    <div class="form-group">
+      <label class="required">Graduating Year</label>
+      <div class="button-group" id="graduating-year-group">
+        <button type="button" onclick="toggleSelection(this)">2024</button>
+        <button type="button" onclick="toggleSelection(this)">2025</button>
+        <button type="button" onclick="toggleSelection(this)">2026</button>
+        <button type="button" onclick="toggleSelection(this)">2027</button>
+        <button type="button" onclick="toggleSelection(this)">2028</button>
+      </div>
+    </div>
+
+    <!-- Course Duration -->
+    <div class="form-group">
+      <label for="course-duration" class="required">Course Duration</label>
+      <select id="course-duration" required>
+        <option value="">Select course duration</option>
+        <option>4 Year</option>
+        <option>3 Year</option>
+        <option>2 Year</option>
+      </select>
+    </div>
+
+    <!-- Country of Residence -->
+    <div class="form-group">
+      <label for="country" class="required">Country of Residence</label>
+      <input type="text" id="country" placeholder="India" required>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="nav-buttons">
+      <button type="button">Back</button>
+      <button type="submit">Register</button>
+    </div>
+  </form>
+</div>
+
+<script>
+  function toggleSelection(button) {
+    // Remove 'selected' class from all buttons in the same group
+    const group = button.parentElement;
+    Array.from(group.children).forEach(child => child.classList.remove('selected'));
+
+    // Add 'selected' class to the clicked button
+    button.classList.add('selected');
+  }
+</script>
+
+</body>
+</html>

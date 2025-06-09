@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movies and OTT Shows in Hyderabad</title>
+<style>
+    body {
+        background-color: #000;
+        color: #ffc107;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filters {
+        width: 20%;
+        padding: 10px;
+    }
+
+    .filters h2 {
+        font-size: 24px;
+        color: #ffc107;
+    }
+
+    .filter-option {
+        background-color: #333;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .filter-option h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .filter-option button {
+    background-color: #000; /* Black background */
+    color: #ffc107; /* Yellow text */
+    border: 1px solid #ffc107; /* Yellow border */
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-option button:hover {
+    background-color: #ffc107; /* Yellow background */
+    color: #000; /* Black text */
+    border: 1px solid #ffc107;
+}
+
+
+    .browse-btn {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        background-color: transparent;
+        color: #ffc107;
+        border: 1px solid #ffc107;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .browse-btn:hover {
+        background-color: #ffc107;
+        color: #000;
+    }
+
+    .content-section {
+        width: 75%;
+        padding: 10px;
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(50% - 10px);
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* Adjust height automatically */
+    object-fit: contain; /* Ensure the entire image is visible */
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+    .card h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .rating {
+        color: #ffc107;
+        font-size: 14px;
+    }
+
+    .lang {
+        font-size: 12px;
+        color: #aaa;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="filters">
+        <h2>Filters</h2>
+        <div class="filter-option">
+            <h3>Languages</h3>
+            <button onclick="filterContent('Malayalam')">Malayalam</button>
+            <button onclick="filterContent('Telugu')">Telugu</button>
+            <button onclick="filterContent('Tamil')">Tamil</button>
+            <button onclick="filterContent('Hindi')">Hindi</button>
+            <button onclick="filterContent('Odia')">Odia</button>
+            <button onclick="filterContent('English')">English</button>
+        </div>
+        <button class="browse-btn" onclick="showMovies()">Browse by Movies</button>
+        <button class="browse-btn" onclick="showOTT()">Browse by OTT</button>
+        <button class="browse-btn" onclick="showAllContent()">Show All</button>
+        
+        
+    </div>
+
+    <div class="content-section">
+        <h2 id="content-heading">All Content</h2>
+        <div class="list">
+            <!-- Movie Cards -->
+             <!-- Movie Cards -->
+            <div class="card movie-card" data-lang="Telugu">
+                <a href="movies running/swag/SwagBookinPage.html" target="_blank">
+                    <img src="movies running/swag/swag.jpg" 
+                        alt="Swag">
+                </a>
+                <h3>Swag</h3>
+                <div class="info">
+                    <span class="lang">Hindi,Telugu</span><br>
+                    <span class="rating">7/10 | 85.6K Votes</span>
+                </div>
+            </div>
+            <div class="card movie-card" data-lang="Telugu,Malayalam">
+                <a href="movies running/" target="_blank">
+                    <img src="dump/images for all/lucky_b.jpeg" 
+                        alt="Lucky Bhaskar (2024)">
+                </a>
+                <h3>Lucky Bhaskar(2024)</h3>
+                <div class="info">
+                    <span class="lang">Telugu,Tamil</span><br>
+                    <span class="rating">9.4/10 | 102.2K Votes</span>
+                </div>
+            </div>
+            <div class="card movie-card" data-lang="Telugu, Hindi,Tamil,Malayalam">
+                <a href="#" target="_blank">
+                    <img src="dump/images for all/Amaran.jpg" 
+                        alt="Amaran">
+                </a>
+                <h3>Amaran</h3>
+                <div class="info">
+                    <span class="lang">Telugu,Hindi,Tamil,Malayalam</span><br>
+                    <span class="rating">9.4/10 | 41.5K Votes</span>
+                </div>
+            </div>
+            <div class="card movie-card" data-lang="Telugu">
+                <a href="#" target="_blank">
+                    <img src="movies running/satyam sundaram/satyam sundaram.jpg" 
+                        alt="satyam sundaram">
+                </a>
+                <h3>atyam sundaram </h3>
+                <div class="info">
+                    <span class="lang">Telugu</span><br>
+                    <span class="rating">8.3/10 | 36.8K Votes</span>
+                </div>
+            </div>
+    
+
+            <!-- OTT Cards -->
+            <div class="card ott-card" data-lang="English,Hindi">
+                <a href="#" target="_blank">
+                    <img src="dump/images for all/The_Crown_season_2.jpeg.jpg" 
+                        alt="The Crown">
+                </a>
+                <h3>The Crown</h3>
+                <div class="info">
+                    <span class="lang">English,Hindi</span><br>
+                    <span class="rating">7.4/10 | 41.1K Votes</span>
+                </div>
+            </div>
+            <div class="card ott-card" data-lang="Hindi">
+                <a href="#" target="_blank">
+                    <img src="dump/images for all/Scam 1992.jpg" 
+                        alt="Scam 1992">
+                </a>
+                <h3>Scam 1992</h3>
+                <div class="info">
+                    <span class="lang">Hindi</span><br>
+                    <span class="rating">9.1/10 | 49.5K Votes</span>
+                </div>
+            </div>
+            <div class="card ott-card" data-lang="Tamil,Spanish,English,Hindi">
+                <a href="#" target="_blank">
+                    <img src="dump/images for all/Money Heist.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjEwMTMyOTMud2VicA==.jpg" 
+                        alt="Money Heist">
+                </a>
+                <h3>Money Heist</h3>
+                <div class="info">
+                    <span class="lang">Tamil,Spanish,English,Hindi</span><br>
+                    <span class="rating">9.2/10 | 56.8K Votes </span>
+                </div>
+            </div>
+            <div class="card ott-card" data-lang="English,Hindi,Telugu,Malayalam">
+                <a href="#" target="_blank">
+                    <img src="dump/images for all/Breaking Bad.jpg" 
+                        alt="Breaking Bad">
+                </a>
+                <h3>Breaking Bad</h3>
+                <div class="info">
+                    <span class="lang">English,Hindi,Telugu,Malayalam</span><br>
+                    <span class="rating">8.6/10 | 50.6K Votes</span>
+                </div>
+            </div>
+            <div class="card ott-card" data-lang="Hindi,Malayalam">
+                <a href="#" target="_blank">
+                    <img src="dump/images for all/Mirzapur.jpg" 
+                        alt="Mirzapur">
+                </a>
+                <h3>Mirzapur</h3>
+                <div class="info">
+                    <span class="lang">Hindi,Malayalam</span><br>
+                    <span class="rating">8.96/10 | 49.9K Votes</span>
+                </div>
+            </div>
+            <div class="card ott-card" data-lang="English">
+                <a href="ott/citidel/citadel.html" target="_blank">
+                    <img src="ott/citidel/CitadelDianahd_poster.jpg" 
+                        alt="cc">
+                </a>
+                <h3>Citidal</h3>
+                <div class="info">
+                    <span class="lang">Hindi,Malayalam</span><br>
+                    <span class="rating">8.96/10 | 49.9K Votes</span>
+                </div>
+            </div>
+
+
+           
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+let currentFilter = "all";
+
+function showMovies() {
+    currentFilter = "movies";
+    document.getElementById('content-heading').textContent = 'Movies In Hyderabad';
+    document.querySelectorAll('.movie-card').forEach(card => card.style.display = 'block');
+    document.querySelectorAll('.ott-card').forEach(card => card.style.display = 'none');
+}
+
+function showOTT() {
+    currentFilter = "ott";
+    document.getElementById('content-heading').textContent = 'Latest OTTs';
+    document.querySelectorAll('.movie-card').forEach(card => card.style.display = 'none');
+    document.querySelectorAll('.ott-card').forEach(card => card.style.display = 'block');
+}
+
+function showAllContent() {
+    currentFilter = "all";
+    document.getElementById('content-heading').textContent = 'All Content';
+    document.querySelectorAll('.card').forEach(card => card.style.display = 'block');
+}
+
+function filterContent(language) {
+    document.querySelectorAll('.card').forEach(card => {
+        const isMatch = card.getAttribute('data-lang').includes(language);
+        const shouldDisplay = (currentFilter === "all" || 
+                               (currentFilter === "movies" && card.classList.contains('movie-card')) || 
+                               (currentFilter === "ott" && card.classList.contains('ott-card')));
+        card.style.display = isMatch && shouldDisplay ? 'block' : 'none';
+    });
+}
+</script>
+
+</body>
+</html>

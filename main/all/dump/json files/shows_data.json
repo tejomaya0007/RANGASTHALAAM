@@ -1,0 +1,302 @@
+[
+    {
+        "_id": "64d2a1a93827c0e512f1d1b0",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "24-10-2024",
+        "time": "4:00 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "b1e57a453f2468c18983e4a9",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "24-10-2024",
+        "time": "8:00 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "738fda3c492f4e568b6ad6d9",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "24-10-2024",
+        "time": "11:30 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "b7a43de14c2940ab9e7ec2a8",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "24-10-2024",
+        "time": "2:30 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "6cd74a7e63f94a6d8f539842",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "24-10-2024",
+        "time": "6:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "1a82c9b3dfd14aa18de829f1",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "24-10-2024",
+        "time": "9:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "4e7a394d86a14aa99e2f0294",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "25-10-2024",
+        "time": "11:30 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "f6bc29194d4a42f982e8b3b0",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "25-10-2024",
+        "time": "2:30 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "a5b81fe24f5143a89e3d1f32",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "25-10-2024",
+        "time": "6:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "53dfe6ab92ea4a5b9b4d3f0c",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "25-10-2024",
+        "time": "9:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "7ac5eb7d12884f79bb0b7e6d",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "26-10-2024",
+        "time": "8:00 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "29e4a6db8f924a089b0a1fd3",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "26-10-2024",
+        "time": "11:30 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "be52c6a784ed4b98a0f3b7ed",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "26-10-2024",
+        "time": "2:30 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "f4a782e7ab7e40f8ad3c0f25",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "26-10-2024",
+        "time": "6:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "b05d82c1b9c041599bc9e1e0",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "26-10-2024",
+        "time": "9:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "fd5727b689d24e09ba8b0ed3",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "27-10-2024",
+        "time": "8:00 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "bf27a1c0d9ae4a48b92d7b3e",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "27-10-2024",
+        "time": "11:30 AM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "8d3a4f0e6b3141ba8e1c9b2d",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "27-10-2024",
+        "time": "2:30 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "b2e76fc1d0ba41eb8b3d8a6c",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "27-10-2024",
+        "time": "6:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    },
+    {
+        "_id": "e917e4a6d91f41faac8d1e0d",
+        "movieId": "603d2f993ded4a2bcf8e7e8b",
+        "theaterId": "6c4a732d1e9829e8363c356a",
+        "date": "27-10-2024",
+        "time": "9:00 PM",
+        "priceCategories": {
+            "boxA": 150,
+            "boxB": 150,
+            "upperBalcony": 150,
+            "lowerBalcony": 150,
+            "firstClass": 150,
+            "thirdClass": 100
+        }
+    }
+]

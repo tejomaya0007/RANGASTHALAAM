@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Page</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    width: 100%;
+    background-color: #030212;
+    padding: 15px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.home-link {
+    color: #ffcc00;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.home-link:hover {
+    color:white;
+}
+
+.ticket-container {
+    background-color:rgba(255,255,255,0.15);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    width: 90%;
+    margin: 80px auto;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.ticket-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ticket-header h1 {
+    font-size: 2rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.ticket-header .ticket-note {
+    font-size: 1rem;
+    color: #ffcc00;
+}
+
+.ticket-content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-poster img {
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.movie-showtime {
+    color: #ffcc00; /* Set this to a bright color that contrasts well with the dark background */
+    font-size: 1rem; /* Adjust font size if needed */
+    margin-bottom: 8px; /* Add some spacing below */
+}
+
+
+
+.right-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-info h2 {
+    font-size: 1.6rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.movie-details {
+    font-size: 1rem;
+    color: #ffcc00;
+    margin-bottom: 8px;
+}
+
+.ticket-type {
+    font-size: 1.1rem;
+    color: #ffcc00;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.booking-info {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #ffcc00;
+}
+
+.ticket-count, .theater-name, .seat-numbers {
+    margin-bottom: 5px;
+}
+
+.booking-id {
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 10px;
+}
+
+.cancellation-note {
+    font-size: 0.9rem;
+    color: #ffcc00;
+    margin-top: 5px;
+}
+
+.total-amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    color: #ffcc00;
+}
+
+.amount {
+    color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+    .ticket-container {
+        padding: 20px;
+    }
+
+    .ticket-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .ticket-header .ticket-note {
+        font-size: 0.9rem;
+    }
+
+    .ticket-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .movie-poster img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .movie-info h2 {
+        font-size: 1.4rem;
+    }
+
+    .movie-details {
+        font-size: 0.9rem;
+    }
+
+    .ticket-type {
+        font-size: 1rem;
+    }
+
+    .booking-info {
+        font-size: 0.9rem;
+    }
+
+    .total-amount {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ticket-container {
+        padding: 15px;
+    }
+
+    .ticket-header h1 {
+        font-size: 1.3rem;
+    }
+
+    .ticket-header .ticket-note {
+        font-size: 0.8rem;
+    }
+
+    .movie-poster img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .movie-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .movie-details, .ticket-type, .booking-info {
+        font-size: 0.8rem;
+    }
+
+    .total-amount {
+        font-size: 0.9rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <a href="../../homepage.html" class="home-link">Home</a>
+    </header>
+    <div class="ticket-container">
+        <div class="ticket-header">
+            <h1>Your Ticket</h1>
+            <p class="ticket-note">Ticket shared on the contact details provided, have it handy on your phone while entering the venue</p>
+        </div>
+        <div class="ticket-content">
+            <div class="left-section">
+                <div class="movie-poster">
+                    <img src="swag.jpg" alt="Movie Poster">
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="movie-info">
+                    <h2 class="movie-title"></h2>
+                    <p class="movie-details"></p>
+                    <p class="movie-showtime"></p>
+                    <p class="ticket-type"><strong>M-Ticket</strong></p>
+                </div>
+                <div class="booking-info">
+                    <p class="ticket-count"></p>
+                    <p class="theater-name"></p>
+                    <p class="seat-numbers"></p>
+                    <p class="booking-id"></p>
+                    <p class="cancellation-note">Cancellation not available for this venue</p>
+                </div>
+                <div class="total-amount">
+                    <p>Total Amount <span class="amount"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        const seatInfo = JSON.parse(localStorage.getItem('selectedSeats'));
+
+        // Check if seatInfo is valid
+        if (seatInfo && seatInfo.section && Array.isArray(seatInfo.seats) && seatInfo.amount) {
+            // Fill in the ticket details
+            document.querySelector('.movie-title').textContent = "SWAG";
+            document.querySelector('.movie-details').textContent = "Telugu, 2D";
+            document.querySelector('.movie-showtime').textContent = "Thu, 24 Oct | 08:00 AM";
+            document.querySelector('.ticket-count').textContent = `${seatInfo.seats.length} Ticket(s)`;
+            document.querySelector('.theater-name').textContent = "SANDHYA 70MM";
+            document.querySelector('.seat-numbers').textContent = `SECOND C - ${seatInfo.seats.join(', ')}`;
+            document.querySelector('.booking-id').textContent = `Booking ID: WM3JLF9F`;
+            document.querySelector('.amount').textContent = `Rs. ${seatInfo.amount}`;
+
+            // Show the booking confirmation alert
+            alert("Booking confirmed!");
+        } else {
+            console.error("Invalid seat information in localStorage.");
+            alert("Seat selection data is missing. Redirecting to seat selection page.");
+            window.location.href = '/8am.html'; // Redirect to seat selection
+        }
+    });
+
+    </script>
+</body>
+</html>

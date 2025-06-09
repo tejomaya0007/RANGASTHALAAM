@@ -1,0 +1,341 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #030212;
+  color: #fff;
+  position: relative;
+}
+
+/* Adjust the "Home" link padding to create space between the menu and link */
+header .logo .home-link {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 50px; /* Space out from the left side */
+}
+
+header .logo .home-link:hover {
+  color: #fff;
+
+}
+
+
+header .search-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+header .search-bar input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+header .user-auth .button {
+  padding: 8px 16px;
+  background-color: #ffcc00;
+  color: #ebe9e9;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .user-auth .button:hover {
+  background-color: #e0b402;
+
+}
+/* Navigation Styling */
+nav {
+  width: 100%;
+  background-color: #030212;
+  padding: 10px 20px;
+}
+
+.nav-main {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-left a, 
+.nav-right a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-left a:hover, 
+.nav-right a:hover{
+  color: #fff;
+} 
+
+.nav-main .extras .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.nav-main .extras:hover .dropdown-content {
+  display: block;
+}
+
+/* Sidebar Styling (Mobile Navigation) */
+.menu-button {
+  display: none;
+  font-size: 30px;
+  color: #ffcc00;
+  cursor: pointer;
+  position: absolute;
+  left: 10px; /* Adjust to leave space between Home link and menu */
+}
+
+.menu-button:hover {
+  color: #fff;
+
+
+}
+
+.sidebar {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.sidebar li {
+  padding: 20px;
+  color: #fff;
+}
+
+.sidebar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  color: #ffcc00;
+  
+}
+
+
+.sidebar .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffcc00;
+}
+
+.sidebar .close-btn:hover {
+  color:white
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .nav-main {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .sidebar {
+    display: flex;
+  }
+}
+
+/* Container for Events */
+.container {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 204, 0.5);
+  margin-top: 20px;
+}
+
+/* Rest of your event styles remain the same */
+/* Filter Section and Button Styling */
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.filter-btn {
+  background-color: #030212;
+  color: #ffcc00;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-btn:hover {
+  background-color: #ffcc00;
+  color: #fff;
+}
+
+/* Events List and Card Styling */
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(3, 2, 18, 0.5);
+  box-shadow: 0 4px 8px rgba(255, 204, 10);
+  border-radius: 13px;
+  padding: 16px;
+  align-items: center;
+}
+
+.event-left {
+  display: flex;
+  gap: 15px;
+}
+
+.event-left img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.event-info h3 {
+  color: #ffcc00;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.event-info p {
+  font-size: 14px;
+  color: #ffcc00;
+}
+
+.event-meta, .event-time, .event-tags {
+  color: #ffcc00;
+  font-size: 12px;
+}
+
+/* Register Button Styling */
+.event-right .register-btn {
+  background-color: #030212;
+  color: #ffcc00;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.event-right .register-btn:hover {
+  background-color: #ffcc00;
+  color: #fff;
+}
+
+/* Responsive Styling for Event Cards */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .filter-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .event-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .event-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .event-info h3 {
+    font-size: 16px;
+  }
+
+  .event-info p, .event-meta, .event-tags {
+    font-size: 12px;
+  }
+
+  .event-right .register-btn {
+    width: 100%;
+    padding: 6px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-card {
+    position: relative;
+    padding-right: 80px;
+  }
+
+  .event-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .event-left {
+    padding-right: 80px;
+  }
+}

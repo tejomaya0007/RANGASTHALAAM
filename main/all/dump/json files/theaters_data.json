@@ -1,0 +1,5333 @@
+[
+    [
+        {
+          "_id": "ObjectId(\"64e5a7c23827d0f512g1a2b1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 1,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"74f6b8d13827c0f512h2b2c2\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 2,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84g7c9e23827c0f512i3c3d3\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 3,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94h8d0f33827d0f512j4d4e4\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 4,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04i9e1g43827c0f512k5e5f5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 5,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14j0f2h53827d0f512l6f6g6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 6,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24k1g3i63827c0f512m7g7h7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 7,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34l2h4j73827d0f512n8h8i8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "C",
+          "seatNumber": 8,
+          "status": "available",
+          "price": 150
+        }
+    ],
+      
+
+    [
+        {
+          "_id": "ObjectId(\"74e3f9a23827d0f512g1b2c1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 1,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84g4h0b33827c0f512h2c3d2\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 2,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94h5i1c43827d0f512i3d4e3\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 3,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04i6j2d53827c0f512j4e5f4\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 4,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14j7k3e63827d0f512k5f6g5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 5,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24k8l4f73827c0f512l6g7h6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 6,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34l9m5g83827d0f512m7h8i7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 7,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"44m0n6h93827c0f512n8i9j8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 8,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"54n1o7i03827d0f512o9j0k9\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "B",
+          "seatNumber": 9,
+          "status": "available",
+          "price": 150
+        }
+      ],
+      [
+        {
+          "_id": "ObjectId(\"64d2a1b33827c0e512f1d1c3\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 1,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"74e5b9a23827d0f512f1c2d4\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 2,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84f6c0b33827c0e512g2d3e5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 3,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94g7d1c43827d0f512h3e4f6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 4,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04h8e2d53827c0e512i4f5g7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 5,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14i9f3e63827d0f512j5g6h8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 6,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24j0g4f73827c0e512k6h7i9\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 7,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34k1h5g83827d0f512l7i8j0\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 8,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"44l2i6h93827c0e512m8j9k1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 9,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"54m3j7i03827d0f512n9k0l2\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxA",
+          "row": "A",
+          "seatNumber": 10,
+          "status": "available",
+          "price": 150
+        }
+    ],
+      
+    [
+        {
+          "_id": "ObjectId(\"64d2a1b43827c0e512f1d1c4\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 1,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"74e7a1b53827d0f512g2c4d5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 2,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84f8b2c63827c0e512h3d5e6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 3,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94g9c3d73827d0f512i4e6f7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 4,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04h0d4e83827c0e512j5f7g8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 5,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14i1e5f93827d0f512k6g8h9\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 6,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24j2f6g03827c0e512l7h9i0\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 7,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34k3g7h13827d0f512m8i0j1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "C",
+          "seatNumber": 8,
+          "status": "available",
+          "price": 150
+        }
+    ],
+    [
+        {
+          "_id": "ObjectId(\"64d2a1b53827c0e512f1d1c5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 1,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"74e6b2b73827d0f512f1d1e7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 2,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84f7c3c83827c0e512g2e8f8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 3,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94g8d4d93827d0f512h3f9g9\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 4,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04h9e5e03827c0e512i4g0h0\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 5,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14i0f6f13827d0f512j5h1i1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 6,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24j1g7g23827c0e512k6i2j2\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 7,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34k2h8h33827d0f512l7j3k3\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 8,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"44l3i9i43827c0e512m8k4l4\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "B",
+          "seatNumber": 9,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"64d2a1b63827c0e512f1d1c6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 1,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"54m4j0j53827d0f512n9l5m5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 2,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"64n5k1k63827c0e512o0m6n6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 3,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"74o6l2l73827d0f512p1n7o7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 4,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84p7m3m83827c0e512q2o8p8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 5,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94q8n4n93827d0f512r3p9q9\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 6,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04r9o5o03827c0e512s4q0r0\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 7,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14s0p6p13827d0f512t5r1s1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 8,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24t1q7q23827c0e512u6s2t2\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 9,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34u2r8r33827d0f512v7t3u3\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "boxB",
+          "row": "A",
+          "seatNumber": 10,
+          "status": "available",
+          "price": 150
+        }
+    ],
+      
+    
+    [
+        {
+          "_id": "ObjectId(\"64d2a1b73827c0e512f1d1c7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 1,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"74d3b2c83827d0f512f1e1d8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 2,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84e4c3d93827c0e512g2f2e9\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 3,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94f5d4e03827d0f512h3g3f0\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 4,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04g6e5f13827c0e512i4h4g1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 5,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14h7f6g23827d0f512j5i5h2\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 6,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24i8g7h33827c0e512k6j6i3\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 7,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34j9h8i43827d0f512l7k7j4\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 8,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"44k0i9j53827c0e512m8l8k5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 9,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"54l1j0k63827d0f512n9m9l6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 10,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"64m2k1l73827c0e512o0n0m7\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 11,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"74n3l2m83827d0f512p1o1n8\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 12,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"84o4m3n93827c0e512q2p2o9\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 13,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"94p5n4o03827d0f512r3q3p0\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 14,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"04q6o5p13827c0e512s4r4q1\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 15,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"14r7p6q23827d0f512t5s5r2\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 16,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"24s8q7r33827c0e512u6t6s3\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 17,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"34t9r8s43827d0f512v7u7t4\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 18,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"44u0s9t53827c0e512w8v8u5\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 19,
+          "status": "available",
+          "price": 150
+        },
+        {
+          "_id": "ObjectId(\"54v1t0u63827d0f512x9w9v6\")",
+          "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+          "section": "upperBalcony",
+          "row": "A",
+          "seatNumber": 20,
+          "status": "available",
+          "price": 150
+        },
+        {
+            "_id": "ObjectId(\"64w2u1v73827c0e512y0x0w7\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 21,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"74x3v2w83827d0f512z1y1x8\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 22,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"84y4w3x93827c0e512a2z2y9\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 23,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"94z5x4y03827d0f512b3a3z0\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 24,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"04a6y5z13827c0e512c4b4a1\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 25,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"14b7z6a23827d0f512d5c5b2\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 26,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"24c8a7b33827c0e512e6d6c3\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 27,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"34d9b8c43827d0f512f7e7d4\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 28,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"44e0c9d53827c0e512g8f8e5\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 29,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"54f1d0e63827d0f512h9g9f6\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 30,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"64g2e1f73827c0e512i0h0g7\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 31,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"74h3f2g83827d0f512j1i1h8\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 32,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"84i4g3h93827c0e512k2j2i9\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 33,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"94j5h4i03827d0f512l3k3j0\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 34,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"04k6i5j13827c0e512m4l4k1\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 35,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"14l7j6k23827d0f512n5m5l2\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 36,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"24m8k7l33827c0e512o6n6m3\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 37,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"34n9l8m43827d0f512p7o7n4\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 38,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"44o0m9n53827c0e512q8p8o5\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 39,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"54p1n0o63827d0f512r9q9p6\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 40,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"64q2o1p73827c0e512s0r0q7\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 41,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"74r3p2q83827d0f512t1s1r8\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 42,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"84s4q3r93827c0e512u2t2s9\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 43,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"94t5r4s03827d0f512v3u3t0\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 44,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"04u6s5t13827c0e512w4v4u1\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 45,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"14v7t6u23827d0f512x5w5v2\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 46,
+            "status": "available",
+            "price": 150
+          },
+          {
+            "_id": "ObjectId(\"24w8u7v33827c0e512y6x6w3\")",
+            "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+            "section": "upperBalcony",
+            "row": "A",
+            "seatNumber": 47,
+            "status": "available",
+            "price": 150
+          }
+          
+        ],[
+            {
+              "_id": "ObjectId(\"74d2b2c93827c0e512g1h1d9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"84e3c3d03827d0f512i2j2e0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"94f4d4e13827c0e512j3k3f1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"04g5e5f23827d0f512k4l4g2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"14h6f6g33827c0e512l5m5h3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"24i7g7h43827d0f512m6n6i4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"34j8h8i53827c0e512n7o7j5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"44k9i9j63827d0f512o8p8k6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"54l0j0k73827c0e512p9q9l7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64m1k1l83827d0f512q0r0m8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"74n2l2m93827c0e512r1s1n9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"84o3m3n03827d0f512s2t2o0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"94p4n4o13827c0e512t3u3p1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"04q5o5p23827d0f512u4v4q2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"14r6p6q33827c0e512v5w5r3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"24s7q7r43827d0f512w6x6s4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"34t8r8s53827c0e512x7y7t5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"44u9s9t63827d0f512y8z8u6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"54v0t0u73827c0e512z9a9v7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64w1u1v83827d0f512a0b0w8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"74x2v2w93827c0e512b1c1x9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"84y3w3x03827d0f512c2d2y0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"94z4x4y13827c0e512d3e3z1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"04a5y5z23827d0f512e4f4a2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "B",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+                "_id": "ObjectId(\"14b6z6a33827c0e512f5g5b3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 26,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"24c7a7b43827d0f512g6h6c4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 27,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"34d8b8c53827c0e512h7i7d5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 28,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"44e9c9d63827d0f512i8j8e6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 29,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"54f0d0e73827c0e512j9k9f7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 30,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64g1e1f83827d0f512k0l0g8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 31,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"74h2f2g93827c0e512l1m1h9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 32,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"84i3g3h03827d0f512m2n2i0\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 33,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"94j4h4i13827c0e512n3o3j1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 34,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"04k5i5j23827d0f512o4p4k2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 35,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"14l6j6k33827c0e512p5q5l3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 36,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"24m7k7l43827d0f512q6r6m4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 37,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"34n8l8m53827c0e512r7s7n5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 38,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"44o9m9n63827d0f512s8t8o6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 39,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"54p0n0o73827c0e512t9u9p7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 40,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64q1o1p83827d0f512u0v0q8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 41,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"74r2p2q93827c0e512v1w1r9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 42,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"84s3q3r03827d0f512w2x2s0\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "B",
+                "seatNumber": 43,
+                "status": "available",
+                "price": 150
+              }
+            ],
+          
+
+      
+    
+            [
+              {
+                "_id": "ObjectId(\"a4e9g1h13827c0e512j0k0m1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 1,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"b5f0h2i23827d0f512k1l1n2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 2,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"c6g1i3j33827c0e512l2m2o3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 3,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"d7h2j4k43827d0f512m3n3p4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 4,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"e8i3k5l53827c0e512n4o4q5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 5,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"f9j4l6m63827d0f512o5p5r6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 6,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"g0k5m7n73827c0e512p6q6s7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 7,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"h1l6n8o83827d0f512q7r7t8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 8,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"i2m7o9p93827c0e512r8s8u9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 9,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"j3n8p0q03827d0f512s9t9v0\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 10,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"k4o9q1r13827c0e512t0u0w1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 11,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"l5p0r2s23827c0e512u1v1w2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 12,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"m6q1s3t33827d0f512v2w2x3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 13,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"n7r2t4u43827c0e512w3x3y4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 14,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"o8s3u5v53827d0f512x4y4z5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 15,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"p9t4v6w63827c0e512y5z5a6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 16,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"q0u5w7x73827d0f512z6a6b7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 17,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"r1v6x8y83827c0e512a7b7c8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 18,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"s2w7y9z93827d0f512b8c8d9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 19,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"t3x8z0a03827c0e512c9d9e0\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 20,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"u4y9a1b13827d0f512d0e0f1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 21,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"v5z0b2c23827c0e512e1f1g2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 22,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"w6a1c3d33827d0f512f2g2h3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 23,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"x7b2d4e43827c0e512g3h3i4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 24,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"y8c3e5f53827d0f512h4i4j5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 25,
+                "status": "available",
+                "price": 150
+              },
+
+              {
+                "_id": "ObjectId(\"a1d4f6g73827c0e512i5j5k6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 26,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"b2e5g7h83827d0f512j6k6l7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 27,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"c3f6h8i93827c0e512k7l7m8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 28,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"d4g7i9j03827d0f512l8m8n9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 29,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"e5h8j0k13827c0e512m9n9o0\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 30,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"f6i9k1l23827d0f512n0o0p1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 31,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"g7j0l2m33827c0e512o1p1q2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 32,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"h8k1m3n43827d0f512p2q2r3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 33,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"i9l2n4o53827c0e512q3r3s4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 34,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"j0m3o5p63827d0f512r4s4t5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 35,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"k1n4p6q73827c0e512s5t5u6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 36,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"l2o5q7r83827d0f512t6u6v7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 37,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"m3p6r8s93827c0e512u7v7w8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 38,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"n4q7s9t03827d0f512v8w8x9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 39,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"o5r8t0u13827c0e512w9x9y0\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 40,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"p6s9u1v23827d0f512x0y0z1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 41,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"q7t0v2w33827c0e512y1z1a2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 42,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"z9y8x7w63827d0f512a1b1c2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "upperBalcony",
+                "row": "C",
+                "seatNumber": 43,
+                "status": "available",
+                "price": 150
+              }
+            ],
+            
+            [
+              {
+              "_id": "ObjectId(\"r1u2v3w43827c0e512a2b2c3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s2v3w4x53827d0f512b3c3d4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t3w4x5y63827c0e512c4d4e5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u4x5y6z73827d0f512d5e5f6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v5y6z7a83827c0e512e6f6g7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w6z7a8b93827d0f512f7g7h8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x7a8b9c03827c0e512g8h8i9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y8b9c0d13827d0f512h9i9j0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z9c0d1e23827c0e512i0j0k1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a0d1e2f33827d0f512j1k1l2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a1b2c3d43827c0e512o4p4q5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b2c3d4e53827d0f512p5q5r6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c3d4e5f63827c0e512q6r6s7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d4e5f6g73827d0f512r7s7t8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e5f6g7h83827c0e512s8t8u9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f6g7h8i93827d0f512t9u9v0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g7h8i9j03827c0e512u0v0w1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h8i9j0k13827d0f512v1w1x2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i9j0k1l23827c0e512w2x2y3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j0k1l2m33827d0f512x3y3z4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+
+            {
+              "_id": "ObjectId(\"k1l2m3n43827c0e512y4z4a5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l2m3n4o53827d0f512z5a5b6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m3n4o5p63827c0e512a6b6c7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"n4o5p6q73827d0f512b7c7d8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o5p6q7r83827c0e512c8d8e9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p6q7r8s93827d0f512d9e9f0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q7r8s9t03827c0e512e0f0g1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r8s9t0u13827d0f512f1g1h2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s9t0u1v23827c0e512g2h2i3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t0u1v2w33827d0f512h3i3j4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u1v2w3x43827c0e512i4j4k5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v2w3x4y53827d0f512j5k5l6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w3x4y5z63827c0e512k6l6m7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x4y5z6a73827d0f512l7m7n8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y5z6a7b83827c0e512m8n8o9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z6a7b8c93827d0f512n9o9p0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a7b8c9d03827c0e512o0p0q1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b8c9d0e13827d0f512p1q1r2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c9d0e1f23827c0e512q2r2s3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d0e1f2g33827d0f512r3s3t4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e1f2g3h43827c0e512s4t4u5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 41,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f2g3h4i53827d0f512t5u5v6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 42,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d4g5h6i73827c0e512m4n4o5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "D",
+              "seatNumber": 43,
+              "status": "available",
+              "price": 150
+            }
+          ],
+          [
+            {
+              "_id": "ObjectId(\"h4i5j6k73827d0f512v7w7x8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i5j6k7l83827c0e512w8x8y9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j6k7l8m93827d0f512x9y9z0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"k7l8m9n03827c0e512y0z0a1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l8m9n0o13827d0f512z1a1b2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m9n0o1p23827c0e512a2b2c3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"n0o1p2q33827d0f512b3c3d4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o1p2q3r43827c0e512c4d4e5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p2q3r4s53827d0f512d5e5f6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q3r4s5t63827c0e512e6f6g7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r4s5t6u73827d0f512f7g7h8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s5t6u7v83827c0e512g8h8i9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t6u7v8w93827d0f512h9i9j0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u7v8w9x03827c0e512i0j0k1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v8w9x0y13827d0f512j1k1l2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w9x0y1z23827c0e512k2l2m3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x0y1z2a33827d0f512l3m3n4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y1z2a3b43827c0e512m4n4o5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z2a3b4c53827d0f512n5o5p6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a3b4c5d63827c0e512o6p6q7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b4c5d6e73827d0f512p7q7r8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c5d6e7f83827c0e512q8r8s9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d6e7f8g93827d0f512r9s9t0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e7f8g9h03827c0e512s0t0u1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f8g9h0i13827d0f512t1u1v2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g9h0i1j23827c0e512u2v2w3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h0i1j2k33827d0f512v3w3x4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i1j2k3l43827c0e512w4x4y5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j2k3l4m53827d0f512x5y5z6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"k3l4m5n63827c0e512y6z6a7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l4m5n6o73827d0f512z7a7b8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m5n6o7p83827c0e512a8b8c9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"n6o7p8q93827d0f512b9c9d0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o7p8q9r03827c0e512c0d0e1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p8q9r0s13827d0f512d1e1f2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q9r0s1t23827c0e512e2f2g3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r0s1t2u33827d0f512f3g3h4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s1t2u3v43827c0e512g4h4i5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t2u3v4w53827d0f512h5i5j6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u3v4w5x63827c0e512i6j6k7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v4w5x6y73827d0f512j7k7l8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 41,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w5x6y7z83827c0e512k8l8m9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 42,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x6y7z8a93827d0f512l9m9n0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "E",
+              "seatNumber": 43,
+              "status": "available",
+              "price": 150
+            }
+          ],
+          [
+            {
+              "_id": "ObjectId(\"y7z8a9b03827c0e512m0n0o1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z8a9b0c13827d0f512n1o1p2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a9b0c1d23827c0e512o2p2q3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b0c1d2e33827d0f512p3q3r4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c1d2e3f43827c0e512q4r4s5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d2e3f4g53827d0f512r5s5t6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e3f4g5h63827c0e512s6t6u7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f4g5h6i73827d0f512t7u7v8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g5h6i7j83827c0e512u8v8w9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h6i7j8k93827d0f512v9w9x0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i7j8k9l03827c0e512w0x0y1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j8k9l0m13827d0f512x1y1z2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"k9l0m1n23827c0e512y2z2a3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l0m1n2o33827d0f512z3a3b4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m1n2o3p43827c0e512a4b4c5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"n2o3p4q53827d0f512b5c5d6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o3p4q5r63827c0e512c6d6e7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p4q5r6s73827d0f512d7e7f8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q5r6s7t83827c0e512e8f8g9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r6s7t8u93827d0f512f9g9h0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s7t8u9v03827c0e512g0h0i1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t8u9v0w13827d0f512h1i1j2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u9v0w1x23827c0e512i2j2k3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v0w1x2y33827d0f512j3k3l4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w1x2y3z43827c0e512k4l4m5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x2y3z4a53827d0f512l5m5n6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y3z4a5b63827c0e512m6n6o7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z4a5b6c73827d0f512n7o7p8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a5b6c7d83827c0e512o8p8q9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b6c7d8e93827d0f512p9q9r0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c7d8e9f03827c0e512q0r0s1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d8e9f0g13827d0f512r1s1t2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e9f0g1h23827c0e512s2t2u3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f0g1h2i33827d0f512t3u3v4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g1h2i3j43827c0e512u4v4w5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h2i3j4k53827d0f512v5w5x6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i3j4k5l63827c0e512w6x6y7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j4k5l6m73827d0f512x7y7z8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"k5l6m7n83827c0e512y8z8a9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l6m7n8o93827d0f512z9a9b0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m7n8o9p03827c0e512a0b0c1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 41,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"n8o9p0q13827d0f512b1c1d2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 42,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o9p0q1r23827c0e512c2d2e3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "F",
+              "seatNumber": 43,
+              "status": "available",
+              "price": 150
+            }
+          ],
+          
+          [
+            {
+              "_id": "ObjectId(\"p0q1r2s33827d0f512d3e3f4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q1r2s3t43827c0e512e4f4g5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r2s3t4u53827d0f512f5g5h6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s3t4u5v63827c0e512g6h6i7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t4u5v6w73827d0f512h7i7j8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u5v6w7x83827c0e512i8j8k9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v6w7x8y93827d0f512j9k9l0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w7x8y9z03827c0e512k0l0m1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x8y9z0a13827d0f512l1m1n2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z0a1b2c33827d0f512n3o3p4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a1b2c3d43827c0e512o4p4q5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b2c3d4e53827d0f512p5q5r6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c3d4e5f63827c0e512q6r6s7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d4e5f6g73827d0f512r7s7t8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e5f6g7h83827c0e512s8t8u9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f6g7h8i93827d0f512t9u9v0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g7h8i9j03827c0e512u0v0w1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h8i9j0k13827d0f512v1w1x2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i9j0k1l23827c0e512w2x2y3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j0k1l2m33827d0f512x3y3z4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"k1l2m3n43827c0e512y4z4a5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l2m3n4o53827d0f512z5a5b6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m3n4o5p63827c0e512a6b6c7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"n4o5p6q73827d0f512b7c7d8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o5p6q7r83827c0e512c8d8e9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p6q7r8s93827d0f512d9e9f0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q7r8s9t03827c0e512e0f0g1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r8s9t0u13827d0f512f1g1h2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s9t0u1v23827c0e512g2h2i3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t0u1v2w33827d0f512h3i3j4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u1v2w3x43827c0e512i4j4k5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v2w3x4y53827d0f512j5k5l6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w3x4y5z63827c0e512k6l6m7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x4y5z6a73827d0f512l7m7n8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y5z6a7b83827c0e512m8n8o9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z6a7b8c93827d0f512n9o9p0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a7b8c9d03827c0e512o0p0q1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b8c9d0e13827d0f512p1q1r2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c9d0e1f23827c0e512q2r2s3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },  
+            {
+              "_id": "ObjectId(\"y8z9a0b33827c0e512m3n3o4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y9z0a1b23827c0e512m2n2o3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "G",
+              "seatNumber": 41,
+              "status": "available",
+              "price": 150
+            }
+          ],
+          [
+            {
+              "_id": "ObjectId(\"d0e1f2g33827c0e512r3s3t4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e1f2g3h43827d0f512s4t4u5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f2g3h4i53827c0e512t5u5v6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g3h4i5j63827c0e512v6w7x8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h4i5j6k73827d0f512w7x8y9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i5j6k7l83827c0e512x8y9z0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y8z9a0b13827d0f512z0a1b2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z9a0b1c23827d0f512a1b2c3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a0b1c2d33827d0f512b2c3d4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p1q2r3s43827d0f512t3u4v5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r4s5t6u53827d0f512v5w6x7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z1a2b3c43827d0f512d3e4f5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d4e5f6g73827d0f512h5i6j7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j8k9l0m13827c0e512n8o9p1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p2q3r4s53827d0f512t5u6v7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v8w9x0y23827c0e512z9a0b1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c3d4e5f63827d0f512g6h7i8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h7i8j9k03827c0e512l0m1n2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m3n4o5p13827d0f512q5r6s7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"t7u8v9w23827c0e512x9y0z1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z1a2b3c33827d0f512d4e5f6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r2s3t4u53827d0f512v6w7x8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x8y9z0a23827c0e512b9c0d1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a1b2c3d13827d0f512e5f6g7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g4h5i6j73827c0e512k7l8m9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l0m1n2o13827d0f512p3q4r5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r6s7t8u23827c0e512v9w0x1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w2x3y4z53827d0f512a5b6c7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c8d9e0f23827c0e512g0h1i2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i3j4k5l63827d0f512m7n8o9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o1p2q3r73827c0e512s4t5u6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u7v8w9x13827d0f512y0z1a2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b3c4d5e23827c0e512f9g0h1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h2i3j4k53827d0f512l6m7n8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m8n9o0p23827c0e512q0r1s2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s3t4u5v63827d0f512w7x8y9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y0z1a2b73827c0e512c3d4e5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e6f7g8h13827d0f512i9j0k1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y7z8a9b13827c0e512c9d0e1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y8z9a0b13827c0e512x9y0z1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"u7v8w9x03827c0e512x9y0z1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 41,
+              "status": "available",
+              "price": 150
+            },
+            
+            {
+              "_id": "ObjectId(\"x7y8z9a03827c0e512y9z0a1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 42,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"w4x5y6z73827c0e512u9v9w0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "H",
+              "seatNumber": 43,
+              "status": "available",
+              "price": 150
+            }
+          ],
+          [
+            {
+              "_id": "ObjectId(\"d1e2f3g43827c0e512h4i5j6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j7k8l9m23827d0f512n0o1p2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p3q4r5s73827c0e512t6u7v8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"v9w0x1y23827d0f512z2a3b4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e1f2g3h43827c0e512i4j5k6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l7m8n9o23827d0f512p0q1r2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"r3s4t5u73827c0e512v6w7x8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x9y0z1a23827d0f512b2c3d4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g1h2i3j43827c0e512k4l5m6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m7n8o9p23827d0f512q0r1s2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"s3t4u5v73827c0e512w6x7y8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y9z0a1b23827d0f512c2d3e4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },{
+              "_id": "ObjectId(\"u1v2w3x43827c0e512y4z5a6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b7c8d9e23827d0f512f0g1h2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i3j4k5l73827c0e512m6n7o8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p9q0r1s23827d0f512t2u3v4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },{
+              "_id": "ObjectId(\"u1v2w3x43827c0e512y4z5a6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b7c8d9e23827d0f512f0g1h2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i3j4k5l73827c0e512m6n7o8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p9q0r1s23827d0f512t2u3v4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q1r2s3t43827c0e512u4v5w6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"x7y8z9a23827d0f512b0c1d2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"y8z9a0b73827c0e512c2d3e4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"z0a1b2c83827d0f512d4e5f6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"a3b4c5d93827c0e512e6f7g8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b5c6d7e23827d0f512f8g9h0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c7d8e9f33827c0e512g0h1i2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"d9e0f1g43827d0f512h2i3j4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e1f2g3h53827c0e512i4j5k6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"f3g4h5i63827d0f512j6k7l8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"g5h6i7j73827c0e512k8l9m0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"h7i8j9k83827d0f512l0m1n2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"i9j0k1l93827c0e512m2n3o4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"j0k1l2m03827d0f512n4o5p6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"k2l3m4n13827c0e512o6p7q8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"l4m5n6o23827d0f512p8q9r0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"m6n7o8p33827c0e512q0r1s2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"n8o9p0q43827d0f512r2s3t4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"o0p1q2r53827c0e512s4t5u6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"p2q3r4s63827d0f512t6u7v8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"q4r5s6t73827c0e512u8v9w0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            }, 
+            {
+              "_id": "ObjectId(\"w5x6y7z83827c0e512a8b9c0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"e5f6g7h83827c0e512i8j9k0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"c5d6e7f83827c0e512g8h9i0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"b5c6d7e83827c0e512f8g9h0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "I",
+              "seatNumber": 41,
+              "status": "available",
+              "price": 150
+            }
+            
+
+          ],
+          [
+            {
+              "_id": "ObjectId(\"64d2c1e53827c0f512a3b1a1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1e63827c0f512a3b1a2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1e73827c0f512a3b1a3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1e83827c0f512a3b1a4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1e93827c0f512a3b1a5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1ea3827c0f512a3b1a6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1eb3827c0f512a3b1a7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1ec3827c0f512a3b1a8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1ed3827c0f512a3b1a9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1ee3827c0f512a3b1aa\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1ef3827c0f512a3b1ab\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1f03827c0f512a3b1ac\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c2a13827c0f512b4b1cd\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c2b23827c0f512b4b1ce\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c2c33827c0f512b4b1cf\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c2d43827c0f512b4b1d0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c2e53827c0f512b4b1d1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c2f63827c0f512b4b1d2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3073827c0f512b4b1d3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3183827c0f512b4b1d4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3293827c0f512b4b1d5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c33a3827c0f512b4b1d6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c34b3827c0f512b4b1d7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c35c3827c0f512b4b1d8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c36d3827c0f512b4b1d9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c37e3827c0f512b4b1da\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c38f3827c0f512b4b1db\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3a03827c0f512b4b1dc\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3b13827c0f512b4b1dd\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3c23827c0f512b4b1de\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3d33827c0f512b4b1df\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3e43827c0f512b4b1e0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c3f53827c0f512b4b1e1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4063827c0f512b4b1e2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4173827c0f512b4b1e3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4283827c0f512b4b1e4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4393827c0f512b4b1e5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c44a3827c0f512b4b1e6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c45b3827c0f512b4b1e7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1fa3827c0f512a3b1b9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c1fc3827c0f512a3b1ba\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "J",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            }
+          ],
+          [
+            {
+              "_id": "ObjectId(\"64d2c4ac3827c0f512b4b1e8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 1,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4bd3827c0f512b4b1e9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 2,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4ce3827c0f512b4b1ea\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 3,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4df3827c0f512b4b1eb\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 4,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c4f03827c0f512b4b1ec\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 5,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c5013827c0f512b4b1ed\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 6,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c5123827c0f512b4b1ee\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 7,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c5233827c0f512b4b1ef\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 8,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c9a93827c0f512b5b2a9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 9,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c9ba3827c0f512b5b2aa\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 10,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c9cb3827c0f512b5b2ab\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 11,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c9dc3827c0f512b5b2ad\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 12,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c9ed3827c0f512b5b2ae\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 13,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c9fe3827c0f512b5b2af\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 14,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca103827c0f512b5b2c0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 15,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca213827c0f512b5b2c1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 16,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca323827c0f512b5b2c2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 17,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca433827c0f512b5b2c3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 18,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca543827c0f512b5b2c4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 19,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca653827c0f512b5b2c5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 20,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca763827c0f512b5b2c6\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 21,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca873827c0f512b5b2c7\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 22,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca983827c0f512b5b2c8\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 23,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2caa93827c0f512b5b2c9\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 24,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2caba3827c0f512b5b2ca\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 25,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cabb3827c0f512b5b2cb\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 26,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cabd3827c0f512b5b2cc\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 27,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cabe3827c0f512b5b2cd\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 28,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cacf3827c0f512b5b2ce\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 29,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cad03827c0f512b5b2cf\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 30,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cad23827c0f512b5b2d0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 31,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cad33827c0f512b5b2d1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 32,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cad43827c0f512b5b2d2\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 33,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cad53827c0f512b5b2d3\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 34,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cad63827c0f512b5b2d4\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 35,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2cad73827c0f512b5b2d5\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 36,
+              "status": "available",
+              "price": 150
+            },
+            
+            {
+              "_id": "ObjectId(\"64d2ca3f3827c0f512b5b2bc\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 37,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2ca503827c0f512b5b2bd\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 38,
+              "status": "available",
+              "price": 150
+            },            
+            {
+              "_id": "ObjectId(\"64d2c5b63827c0f512b4b1f0\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 39,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c5c73827c0f512b4b1f1\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 40,
+              "status": "available",
+              "price": 150
+            },
+            {
+              "_id": "ObjectId(\"64d2c5a13827c0f512b4b1ef\")",
+              "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+              "section": "upperBalcony",
+              "row": "K",
+              "seatNumber": 41,
+              "status": "available",
+              "price": 150
+            }
+            ],
+            [
+              {
+                "_id": "ObjectId(\"64d2dae13827c0f512c5c3e1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 1,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae23827c0f512c5c3e2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 2,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae33827c0f512c5c3e3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 3,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae43827c0f512c5c3e4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 4,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae53827c0f512c5c3e5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 5,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae63827c0f512c5c3e6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 6,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae73827c0f512c5c3e7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 7,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae83827c0f512c5c3e8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 8,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dae93827c0f512c5c3e9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 9,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daea3827c0f512c5c3ea\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 10,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daeb3827c0f512c5c3eb\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 11,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daec3827c0f512c5c3ec\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 12,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daed3827c0f512c5c3ed\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 13,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daee3827c0f512c5c3ee\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 14,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daef3827c0f512c5c3ef\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 15,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf03827c0f512c5c3f0\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 16,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf13827c0f512c5c3f1\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 17,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf23827c0f512c5c3f2\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 18,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf33827c0f512c5c3f3\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 19,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf43827c0f512c5c3f4\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 20,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf53827c0f512c5c3f5\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 21,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf63827c0f512c5c3f6\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 22,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf73827c0f512c5c3f7\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 23,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf83827c0f512c5c3f8\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 24,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daf93827c0f512c5c3f9\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 25,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dafa3827c0f512c5c3fa\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 26,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dafb3827c0f512c5c3fb\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 27,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dafc3827c0f512c5c3fc\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 28,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dafd3827c0f512c5c3fd\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 29,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2dafe3827c0f512c5c3fe\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 30,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2daff3827c0f512c5c3ff\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 31,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db003827c0f512c5c400\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 32,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db013827c0f512c5c401\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 33,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db023827c0f512c5c402\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 34,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db033827c0f512c5c403\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 35,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db043827c0f512c5c404\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 36,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db053827c0f512c5c405\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 37,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db063827c0f512c5c406\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 38,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db073827c0f512c5c407\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 39,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db083827c0f512c5c408\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 40,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db093827c0f512c5c409\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 41,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d2db0a3827c0f512c5c40a\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "K",
+                "seatNumber": 42,
+                "status": "available",
+                "price": 150
+              }
+            ],
+            [
+              {
+                "_id": "ObjectId(\"64d3eb013827c0f512c6b501\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 1,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb023827c0f512c6b502\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 2,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb033827c0f512c6b503\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 3,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb273827c0f512c6b527\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 4,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb283827c0f512c6b528\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 5,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb293827c0f512c6b529\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 6,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb2a3827c0f512c6b52a\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 7,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb2b3827c0f512c6b52b\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 8,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb3b3827c0f512c6b53b\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 9,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb3c3827c0f512c6b53c\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 10,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb3d3827c0f512c6b53d\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 11,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb523827c0f512c6b552\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 36,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb3e3827c0f512c6b53e\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 12,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb3f3827c0f512c6b53f\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 13,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb403827c0f512c6b540\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 14,
+                "status": "available",
+                "price": 150
+              },
+              {
+                "_id": "ObjectId(\"64d3eb513827c0f512c6b551\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 35,
+                "status": "available",
+                "price": 150
+              }
+              
+
+              {
+                "_id": "ObjectId(\"64d3eb5e3827c0f512c6b55e\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 37,
+                "status": "available",
+                "price": 150
+              },
+              
+              {
+                "_id": "ObjectId(\"64d3eb263827c0f512c6b526\")",
+                "showId": "ObjectId(\"64d2a1a93827c0e512f1d1b0\")",
+                "section": "lowerBalcony",
+                "row": "B",
+                "seatNumber": 38,
+                "status": "available",
+                "price": 150
+              }
+              
+
+            ]
+  ]
+  

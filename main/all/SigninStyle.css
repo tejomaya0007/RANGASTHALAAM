@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.025);
+}
+
+.container {
+    margin-top: 10px;
+    height: 650px;
+    width: 410px;
+    background: rgba(255, 255, 255, 0.025);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(255, 170, 0, 0.5);
+    border: 1px solid rgba(255, 170, 0, 0.3);
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Login form styling */
+.login-form {
+    position: absolute;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 2; /* Ensure login form is above registration form by default */
+}
+
+.login-form.hidden {
+    transform: translateX(-410px);
+    opacity: 0; /* Optional: fade out effect */
+    z-index: 1;
+}
+
+/* Registration form styling */
+.Register-form {
+    position: absolute;
+    transform: translateX(410px);
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1; /* Keep registration form below login form initially */
+}
+
+.Register-form.active {
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 2; /* Bring registration form above login form */
+}
+
+/* Make sure hidden elements are off-screen */
+.hidden {
+    opacity: 0;
+}
+
+
+.step {
+    display: none;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+}
+
+.step.active {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.RegisteBtn a,
+.LoginBtn a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffaa00;
+    transition: color 0.3s ease;
+}
+
+.RegisteBtn a:hover,
+.LoginBtn a:hover {
+    color: white;
+}
+
+h2 {
+    color: #ffaa00;
+    font-size: 20px;
+}
+
+.input-box {
+    margin: 45px 0;
+    height: 40px;
+    width: 300px;
+    border-bottom: 2px solid rgba(255, 170, 0, 0.5);
+    position: relative;
+}
+
+/* Fix input box and icons */
+.input-box input {
+    width: 85%;
+    float: right;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: rgba(255, 170, 0, 0.9);
+    padding: 5px 0;
+    background: transparent;
+}
+
+.input-box input:focus {
+    outline: none; /* Ensures no outline is displayed when input is focused */
+    box-shadow: none; /* Remove any potential shadow causing the white border */
+}
+
+.input-box label {
+    position: absolute;
+    left: 35px;
+    transform: translateY(-56%);
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffaa00;
+}
+
+.input-box i.left-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    font-size: 18px;
+    color: #ffaa00;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+/* Toggle Password Visibility Icon */
+#togglePassword {
+    position: absolute;
+    right: 10px; /* Ensure it is on the right */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #ffaa00; /* Correct color */
+    cursor: pointer;
+    z-index: 2; /* Ensure it's on top */
+}
+
+#togglePassword:hover {
+    color: #ffffff; /* Optional: Change color on hover */
+}
+
+/* Extra Fix for the Password Field */
+.input-box input {
+    width: calc(100% - 50px); /* Adjust width to fit both left and right icons */
+    border: none;
+    font-size: 15px;
+    color: rgba(255, 170, 0, 0.9);
+    background: transparent;
+}
+
+.forgot-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.forgot-section span {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #ffaa00;
+}
+
+.forgot-section span:first-child {
+    margin-right: 10px;
+}
+
+.forgot-section span a {
+    color: #ffaa00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-section span a:hover {
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg, #ffaa00, 60%, #0B0623);
+    font-size: 19px;
+    font-weight: 500;
+    color: #eee;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(45deg, #0B0623, 60%, #ffaa00);
+    transition: 0.5s ease;
+    z-index: -1;
+}
+
+.btn:hover {
+    color: #ffaa00;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
+
+p {
+    color: rgba(255, 170, 0, 1);
+    font-size: 13px;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    text-align: center;
+}
+/* General Social Media Icon Styles */
+/* General Social Media Icon Styles */
+.social-media {
+    display: flex; /* Align icons horizontally */
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-top: 20px; /* Add space above icons */
+}
+
+.social-media i {
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.7;
+    color: #ffaa00;
+    border: 2px solid #ffaa00;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+/* Hover effect for all icons */
+.social-media i:hover {
+    opacity: 1;
+    backdrop-filter: blur(8px); /* Increase blur on hover */
+}
+
+/* Facebook Icon */
+.social-media i:nth-child(1):hover {
+    background: rgba(66, 103, 178, 0.5); /* Facebook blue background on hover */
+}
+
+/* Google Icon */
+.social-media i:nth-child(2):hover {
+    background: rgba(219, 68, 55, 0.5); /* Google red background on hover */
+}
+
+/* Twitter Icon */
+.social-media i:nth-child(3):hover {
+    background: rgba(29, 161, 242, 0.5); /* Twitter blue background on hover */
+}
+
+/* Responsive adjustments for screens less than 768px */
+/* Responsive adjustments for screens less than 768px */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width for better scaling */
+        padding: 10px;
+    }
+
+    .input-box {
+        width: 90%; /* Shrink input boxes to 90% width */
+        margin: 15px 0;
+    }
+
+    .social-media i {
+        font-size: 24px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin-left: 10px;
+    }
+
+    .social-media {
+        gap: 10px; /* Reduce gap between icons */
+    }
+
+    .btn {
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px; /* Vertically center button text */
+    }
+}
+
+/* Responsive adjustments for screens less than 480px */
+@media (max-width: 480px) {
+    .container {
+        width: 95%; /* Make container take up almost full screen */
+        padding: 5px;
+    }
+
+    .input-box {
+        width: 95%; /* Shrink input boxes to 95% width */
+        margin: 10px 0;
+    }
+
+    .social-media i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 8px;
+    }
+
+    .social-media {
+        gap: 8px; /* Reduce gap further */
+    }
+
+    .btn {
+        height: 35px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+}
+
+/* Change color of the calendar icon to #ffaa00 */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(62%) sepia(68%) saturate(738%) hue-rotate(11deg) brightness(100%) contrast(101%);
+}
+
+/* Date input style */
+input[type="date"] {
+    color: #ffaa00;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: none;
+}
+
+label[for="dob"] {
+    color: #ffaa00;
+}
+
+/* Password Validation Styling */
+.pass-field {
+    position: relative;
+    margin-top: 30px;
+}
+
+.pass-field input {
+    padding-right: 45px; /* Space for eye icon */
+    padding-left: 80px;
+    width: calc(100% - 90px);
+    float: right;
+    border: none;
+    font-size: 15px;
+    color: rgba(255, 170, 0, 0.9);
+    background: transparent;
+}
+
+/* Position for eye icon in registration */
+.pass-field i.fa-eye, .pass-field i.fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #ffaa00;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.pass-field i.fa-eye:hover, .pass-field i.fa-eye-slash:hover {
+    color: #ffffff;
+}
+
+/* Style the placeholder text in the password input for the third registration form */
+.pass-field input::placeholder {
+    font-size: 12px; /* Adjust the font size */
+    color: lightgrey; /* Set the color to light grey */
+    opacity: 1; /* Ensure the opacity is set so that the color displays correctly */
+    text-align: center;
+}
+
+/* If some browsers need different placeholder syntax */
+.pass-field input::-webkit-input-placeholder { /* For Chrome/Edge/Safari */
+    font-size: 12px;
+    color: lightgrey;
+    text-align: center;
+}
+
+.pass-field input:-ms-input-placeholder { /* For IE */
+    font-size: 12px;
+    color: lightgrey;
+    text-align: center;
+}
+
+.pass-field input::-ms-input-placeholder { /* For older Edge */
+    font-size: 12px;
+    color: lightgrey;
+    text-align: center;
+}
+
+.content p {
+    color: #ffaa00;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.requirement-list li {
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.requirement-list li i {
+    width: 20px;
+    color: #aaa;
+    font-size: 0.6rem;
+}
+
+.requirement-list li.valid i {
+    font-size: 1rem;
+    color: #ffaa00;
+}
+
+.requirement-list li span {
+    margin-left: 12px;
+    color: rgba(255, 170, 0, 1);
+}
+
+.requirement-list li.valid span {
+    color: rgba(255, 170, 0, 0.7);
+}

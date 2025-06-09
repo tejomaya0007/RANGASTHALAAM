@@ -1,0 +1,92 @@
+[{
+  "_id": {
+    "$oid": "67286843113abc1ebb066300"
+  },
+  "user": [
+    {
+      "username": "prakyath",
+      "email": "prakyathtej@gmail.com",
+      "dob": "2005-01-01",
+      "mobile": "9856237458",
+      "password": "PraKyath@123"
+    },
+    {
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "dob": "1990-04-12",
+      "mobile": "1234567890",
+      "password": "JohnDoe@2021"
+    },
+    {
+      "username": "tejomaya",
+      "email": "tejomaya948@gmail.com",
+      "dob": "2024-11-01",
+      "mobile": "9014583603",
+      "password": "$2b$10$5QEQlJcmn756bMQ7H1ULKu6sy1aUaltIv4/ad7k63v0wDlY7h.IaS",
+      "_id": {
+        "$oid": "672869b52a8b82bdcaec20ed"
+      }
+    },
+    {
+      "username": "jash12",
+      "email": "donteja613@gmail.com",
+      "dob": "2024-11-07",
+      "mobile": "9014583603",
+      "password": "$2b$10$k1c.1HpAWLLFIoPv62y7..GLxsnEZIoc3c6MNR3nUz6diWbnflMQi",
+      "_id": {
+        "$oid": "67286c5b97fedb0a4572c930"
+      }
+    },
+    {
+      "username": "rahul",
+      "email": "rahulmiriyala@gmail.com",
+      "dob": "2024-09-12",
+      "mobile": "9985442314",
+      "password": "$2b$10$tQlrZgo1VQPStvbp/AlVLebj0IGsO4dAKAJ1CimSY2kdWLZxIgiXK",
+      "_id": {
+        "$oid": "6728a70c5aea957b9ceac92a"
+      }
+    },
+    {
+      "username": "akhil",
+      "email": "akhil@gmaiil.com",
+      "dob": "2005-02-16",
+      "mobile": "995687412",
+      "password": "$2b$10$SdQbkKSzXCiRztlguTLE.u7mENOgFrupKdUAUpRLZeDxCR3XvK0c6",
+      "_id": {
+        "$oid": "67298af4d9d74f47c0a63c98"
+      }
+    },
+    {
+      "username": "gautam",
+      "email": "gautambal@gmail.com",
+      "dob": "2004-12-27",
+      "mobile": "99627458",
+      "password": "$2b$10$6M75AHA8iPACszUsGoiuU.5Oj2EFuWzzUg6nBj9M/PH.f9fpcdbam",
+      "_id": {
+        "$oid": "67298b72443883a71aaa8675"
+      }
+    },
+    {
+      "username": "akhila",
+      "email": "donteja613@gmail.com",
+      "dob": "2024-11-07",
+      "mobile": "9014583603",
+      "password": "$2b$10$AIwgHrWYIMYOVsLKFdI9K.mhcJXbILxzh/beCoIVobqHtd5eKjbqG",
+      "_id": {
+        "$oid": "6729bf00c8723c794332830a"
+      }
+    },
+    {
+      "username": "shiva",
+      "email": "vshoivaprasad@gmail.com",
+      "dob": "2024-11-05",
+      "mobile": "8989898989",
+      "password": "$2b$10$lSQJyGop/bmocacCfOf.ieW0eN1pBHenw9UPrZr1tHIJ4Sgw5FdwW",
+      "_id": {
+        "$oid": "6729dee0ed0798cddb496477"
+      }
+    }
+  ],
+  "__v": 7
+}]

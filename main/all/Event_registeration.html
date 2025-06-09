@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        /* Base styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Header styling */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #333;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 50px;
+        }
+        .header h1 {
+            color: #ffc107;
+            font-size: 1.5em;
+            flex: 1;
+            text-align: center;
+        }
+        .header a {
+            color: #ffc107;
+            text-decoration: none;
+            font-size: 1em;
+            text-align: right;
+        }
+
+        /* Section styling */
+        .section-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #ffc107;
+            margin-top: 20px;
+            border-bottom: 2px solid #ffc107;
+            padding-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+        input[type="text"], input[type="email"], input[type="file"], input[type="number"], input[type="date"], select {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            color: #121212;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background: rgba(255, 255, 255, 0.7);
+            color: #121212;
+            margin-top: 5px;
+        }
+        .radio-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+        }
+
+        /* Button styling */
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #ffc107;
+            color: #121212;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #e0a800;
+        }
+        
+        /* Button group styling */
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        /* Hide sections */
+        .section {
+            display: none;
+        }
+        .active-section {
+            display: block;
+        }
+
+        /* Error styling */
+        .error-message {
+            color: #ff3860;
+            font-size: 0.9em;
+            margin-top: 10px;
+            display: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header h1 {
+                font-size: 1.2em;
+                margin-top: 10px;
+            }
+        }
+    </style>
+    <script>
+        // JavaScript function to switch between sections
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active-section');
+            });
+            document.getElementById(sectionId).classList.add('active-section');
+        }
+
+        function validateAndNext(sectionId) {
+            if (sectionId === 'upload-documents') updateDocumentFields();
+            showSection(sectionId);
+        }
+
+        function toggleSubmitButton(checkbox) {
+            const submitButton = document.getElementById('submit-button');
+            submitButton.disabled = !checkbox.checked;
+            document.getElementById('error-message').style.display = 'none';
+        }
+
+        function validateAndSubmit() {
+    const checkbox = document.querySelector('#sign-agreement input[type="checkbox"]');
+    const errorMessage = document.getElementById('error-message');
+    
+    // Check if the checkbox is checked
+    if (!checkbox.checked) {
+        errorMessage.style.display = 'block';
+        return false;  // Prevent form submission if checkbox is not checked
+    } 
+    
+    // Show confirmation message or thank you section
+    alert('Registration Submitted!');
+    showSection('thank-you');
+    
+    // Redirect to the homepage after 3 seconds
+    setTimeout(() => {
+        window.location.href = 'homepage.html';  // Replace with your home page URL
+    }, 3000);
+
+    return true;  // Allow form submission
+}
+
+
+        // Function to handle event type selection
+        function handleEventTypeChange() {
+            const eventType = document.getElementById('event-type').value;
+            document.getElementById('event-fields').style.display = eventType === 'Event' ? 'block' : 'none';
+            document.getElementById('hackathon-fields').style.display = eventType === 'Hackathon' ? 'block' : 'none';
+            document.getElementById('summit-fields').style.display = eventType === 'Summit' ? 'block' : 'none';
+            updateDocumentFields();
+        }
+
+        // Function to update labels in "Upload Documents" based on selected event type
+        function updateDocumentFields() {
+            const eventType = document.getElementById('event-type').value;
+            const posterLabel = document.getElementById('poster-label');
+            const dateLabel = document.getElementById('date-label');
+
+            if (eventType === 'Event') {
+                posterLabel.textContent = 'Event Poster';
+                dateLabel.textContent = 'Date of the Event';
+            } else if (eventType === 'Hackathon') {
+                posterLabel.textContent = 'Hackathon Poster';
+                dateLabel.textContent = 'Date of the Hackathon';
+            } else if (eventType === 'Summit') {
+                posterLabel.textContent = 'Summit Poster';
+                dateLabel.textContent = 'Date of the Summit';
+            }
+            
+        }
+    </script>
+</head>
+<body>
+
+    <!-- General Information Section -->
+    <div id="general-info" class="container section active-section">
+        <div class="header">
+            <img src="logo.png" alt="Logo">
+            <h1>Registration Setup</h1>
+            <a href="#">Sign Out</a>
+        </div>
+        <p>Please fill in the details below to set up an account for your organization in our system and gain access to the Do-It-Yourself portal for listing your event.</p>
+
+        <!-- Organisation Details -->
+        <div class="section-title">Organisation Details</div>
+        <div class="form-group">
+            <label>Organisation/Individual Name</label>
+            <input type="text" placeholder="Enter your organisation name" required minlength="3">
+        </div>
+        <div class="form-group">
+            <label>Organisation/Individual PAN card number</label>
+            <input type="text" placeholder="Enter PAN card number" required minlength="10" maxlength="10" pattern="[A-Z]{5}[0-9]{4}[A-Z]">
+        </div>
+        <div class="form-group">
+            <label>Organisation/Individual Address</label>
+            <input type="text" placeholder="Enter your organisation address" required minlength="5">
+        </div>
+        <div class="form-group">
+            <label>Do you have a GSTIN number?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gstin" value="yes" required> Yes</label>
+                <label><input type="radio" name="gstin" value="no" required> No</label>
+            </div>
+        </div>
+
+        <!-- Event Type Selection -->
+        <div class="section-title">Event Type</div>
+        <div class="form-group">
+            <label for="event-type">Registering For</label>
+            <select id="event-type" onchange="handleEventTypeChange()" required>
+                <option value="" disabled selected>Select type</option>
+                <option value="Event">Event</option>
+                <option value="Hackathon">Hackathon</option>
+                <option value="Summit">Summit</option>
+            </select>
+        </div>
+
+        <!-- Conditional Fields -->
+        <div id="event-fields" style="display: none;">
+            <div class="form-group">
+                <label>Event Name</label>
+                <input type="text" placeholder="Enter event name" required>
+            </div>
+            <div class="form-group">
+                <label>Event Date</label>
+                <input type="date" required>
+            </div>
+        </div>
+
+        <div id="hackathon-fields" style="display: none;">
+            <div class="form-group">
+                <label>Hackathon Name</label>
+                <input type="text" placeholder="Enter hackathon name" required>
+            </div>
+            <div class="form-group">
+                <label>Hackathon Date</label>
+                <input type="date" required>
+            </div>
+        </div>
+
+        <div id="summit-fields" style="display: none;">
+            <div class="form-group">
+                <label>Summit Domain</label>
+                <input type="text" placeholder="Enter summit domain" required>
+            </div>
+            <div class="form-group">
+                <label>Summit Date</label>
+                <input type="date" required>
+            </div>
+        </div>
+        <div class="section-title">Contact Person Details</div>
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required minlength="3">
+        </div>
+        <div class="form-group">
+            <label>Email address</label>
+            <input type="email" placeholder="Enter your email address" required>
+        </div>
+        <div class="form-group">
+            <label>Mobile Number</label>
+            <input type="text" placeholder="Enter mobile number" required pattern="[0-9]{10}">
+        </div>
+
+        <!-- Next Button -->
+        <a href="javascript:void(0)" class="button" onclick="validateAndNext('upload-documents')">Next</a>
+    </div>
+
+    <!-- Upload Documents Section -->
+    <div id="upload-documents" class="container section">
+        <div class="header">
+            <img src="logo.png" alt="Logo">
+            <h1>Upload Documents</h1>
+            <a href="#">Sign Out</a>
+        </div>
+
+        <div class="section-title">Upload Documents</div>
+        <div class="form-group">
+            <label id="poster-label">Event Poster</label>
+            <input type="file" required>
+        </div>
+        <div class="form-group">
+            <label id="date-label">Date of the Event</label>
+            <input type="date" required>
+        </div>
+        <div class="form-group">
+            <label>Upload PAN Card</label>
+            <input type="file" required>
+        </div>
+        <div class="form-group">
+            <label>Upload Organisation Proof</label>
+            <input type="file" required>
+        </div>
+        <div class="button-group">
+            <a href="javascript:void(0)" class="button" onclick="showSection('general-info')">Back</a>
+            <a href="javascript:void(0)" class="button" onclick="validateAndNext('sign-agreement')">Next</a>
+        </div>
+    </div>
+
+    <!-- Sign Agreement Section -->
+    <div id="sign-agreement" class="container section">
+        <form onsubmit="return validateAndSubmit()">
+            <div class="header">
+                <img src="logo.png" alt="Logo">
+                <h1>Sign Agreement</h1>
+                <a href="#">Sign Out</a>
+            </div>
+
+            <div class="section-title">Terms and Conditions</div>
+            <p>By checking this box, you agree to all terms and conditions.</p>
+            <input type="checkbox" onchange="toggleSubmitButton(this)"> I agree to the terms and conditions.
+            <p id="error-message" class="error-message">You must agree to the terms and conditions before submitting.</p>
+
+            <div class="button-group">
+                <a href="javascript:void(0)" class="button" onclick="showSection('upload-documents')">Back</a>
+                <button id="submit-button" class="button" onclick="validateAndSubmit()">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div id="thank-you" class="container section">
+        <div class="thank-you-message">
+            <h1>Thank You!</h1>
+            <p>Your event has been registered successfully.</p>
+            <p>Redirecting to the home page in 3 seconds...</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+[{
+  "_id": "6c4a732d1e9829e8363c356a",
+  "name": "Sandhya 70MM",
+  "location": {
+    "address": "RTC X Roads, Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zipCode": "500020"
+  },
+  "amenities": [
+    "4K",
+    "Dolby Atmos"
+  ]
+},
+{
+  "_id": "e94c7cf0e971610f77b5c34f",
+  "name": "PVR Cinemas",
+  "location": {
+    "address": "Inorbit Mall, Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zipCode": "500081"
+  },
+  "amenities": [
+    "IMAX",
+    "Dolby Surround"
+  ]
+},
+{
+  "_id": "fab451598015643328ea45e5",
+  "name": "AMB Cinemas: Gachibowli",
+  "location": {
+    "address": "Gachibowli, Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zipCode": "500032"
+  },
+  "amenities": [
+    "M-Ticket",
+    "Food & Beverage",
+    "Non-cancellable"
+  ]
+},
+{
+  "_id": "da5317a06685782533947bd5",
+  "name": "Aparna Cinemas: Nallagandla",
+  "location": {
+    "address": "Nallagandla, Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zipCode": "500019"
+  },
+  "amenities": [
+    "Food & Beverage",
+    "Non-cancellable"
+  ]
+}]
